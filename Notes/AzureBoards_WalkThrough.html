@@ -25,10 +25,8 @@
 .auto-style6 {
 	list-style-type: lower-alpha;
 }
-.auto-style7 {
-	font-weight: normal;
-}
 </style>
+<base target="_blank" />
 </head>
 
 <body>
@@ -37,13 +35,14 @@
 <h2>Creating and Setting up a project</h2>
 <h3>Assumptions</h3>
 <ul>
-	<li>You already have an account on Azure DevOps</li>
-	<li>You are&nbsp; a member of an organization<ul>
-		<li>Your access level is <em><strong>Basic</strong></em>.</li>
+	<li>You already have an account on
+	<a href="https://dev.azure.com" target="_blank">Azure DevOps</a>.</li>
+	<li>You are&nbsp; a member of an organization.<ul>
+		<li>Your access level is <strong><em>Basic.</em></strong></li>
 	</ul>
 	</li>
 </ul>
-<h3>Creating a Project</h3>
+<h3>Create a Project</h3>
 <ol>
 	<li>In the left-hand menu, click on <em><strong>Projects</strong></em></li>
 	<li>Click on <strong><em>New team project...</em></strong><ul>
@@ -99,13 +98,53 @@
 	</li>
 	<li>Click on <strong><em>Create Project</em></strong></li>
 </ol>
-<h3>Configuring a Project</h3>
+<h3>Add Members to the Organization</h3>
+<ol>
+	<li>Click on the Azure DevOps logo (at the top left of the screen)<ul>
+		<li>Click on<em><strong> Organization settings</strong></em> (at the 
+		bottom left of the screen)<ul>
+			<li>Click on <strong><em>Users</em></strong></li>
+			<li>To add new team members, click on <em><strong>+ Add new users</strong></em><ul>
+				<li><strong><em>Users:</em></strong> Enter a user's e-mail 
+				address.</li>
+				<li><em><strong>Access level</strong></em>: Choose an option,
+				<strong><em>Basic</em></strong> is usually what you want.<ul>
+					<li><span class="auto-style5"><em>Basic</em></span>--user 
+					can access all features. Up to 5 are allowed on the free 
+					plan</li>
+					<li><span class="auto-style5"><em>Stakeholder</em></span>--limited 
+					access to features (mainly viewing). An unlimited number are 
+					allowed on the free plan.</li>
+				</ul>
+				</li>
+				<li><strong><em>Projects</em></strong>--select one or more 
+				projects.</li>
+				<li><strong><em>Azure DevOps Groups</em></strong>--select the 
+				appropriate group, usually <em><strong>Project Contributors</strong></em><ul>
+					<li><em><strong>P</strong><span class="auto-style5">roject 
+					Readers</span></em>--read-only access.</li>
+					<li><span class="auto-style5"><em>Project Contributrs</em></span>--able 
+					to contribute fully to theproject.</li>
+					<li><span class="auto-style5"><em>Project Administrators</em></span>--able 
+					to configure project resources.</li>
+				</ul>
+				</li>
+				<li>Check the<em><strong> send email invites </strong></em>box</li>
+				<li>Click the <em><strong>Add</strong></em> button.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ol>
+<h3>Add Members to the Project Team</h3>
 <p>In the left-hand menu, click on<strong><em> Project settings</em></strong> 
 (at the bottom)</p>
 <ol>
 	<li class="auto-style6">Under <strong><em>General</em></strong>, selct
 	<strong><em>Teams</em></strong><ul>
-		<li>You shoudl see a team created for your projec, for example,<em><strong> 
+		<li>You shoudl see a team created for your project, for example,<em><strong> 
 		DemoProejct Team,</strong></em> click on it.<ul>
 			<li>Under <span class="auto-style5"><em>Administrators</em></span> 
 			(in the center column), click on<em><strong> +Add</strong></em><ul>
@@ -137,23 +176,41 @@
 	</ul>
 	</li>
 </ol>
-<h2>Creating Work Items</h2>
+<h2>Create and Manage User Stories</h2>
+<p>&nbsp;</p>
+<h3>Create User Stories&nbsp; (aka Backlog items)</h3>
+<p>For reference, read the tutorial--<a href="https://docs.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?toc=%2fazure%2fdevops%2fboards%2fget-started-agile%2ftoc.json&amp;%3bbc=%2fazure%2fdevops%2fboards%2fget-started-agile%2fbreadcrumb%2ftoc.json&amp;view=azure-devops" target="_blank">Track 
+user stories, tasks, and features</a> .</p>
 <ol>
-	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <strong>
-	Work Items</strong> (in the left-hand menu)<ul>
-		<li>Next to<em><strong> +New Work Item, </strong></em>select<em><strong> 
-		t</strong><span class="auto-style1">he type, typically </span><strong>
-		Feature</strong><span class="auto-style1">, and click on it</span><strong>.</strong></em>then 
-		give it a name like,<em><strong> "User registration"<br />
-		</strong></em>The terminology here doesn't include <em>User Story</em><strong><span class="auto-style7">, 
-		but think of a </span></strong><em>Feature<strong> </strong></em>as a
-		<em>User Story </em>and write it's description in that style.</li>
-		<li>Add a description. For example, "Users will be able to create a 
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Boards</strong></em> (in the left-hand menu)</li>
+	<li><strong><em>C</em></strong><em><strong>lick on +New Item, </strong></em>
+	select<em><strong> t</strong><span class="auto-style1">he type, typically
+	</span><strong>Product backlog item</strong><span class="auto-style1">, and 
+	click on it</span><strong>.</strong></em>then give it a name like,<em><strong> 
+	"Create user profile"</strong></em><ul>
+		<li>Click on the item and add a <span class="auto-style5"><em>
+		description</em></span>. For example, "Users will be able to create a 
 		profile so that they can share information about themselves with other 
 		users."</li>
+		<li>Set the <span class="auto-style5">priority</span>.</li>
+		<li>Enter the time estimate in the <span class="auto-style5"><em>effort</em></span> 
+		field</li>
 	</ul>
 	</li>
 </ol>
+<h3>Plan a Sprint, Assign Devs to User Stories</h3>
+<p>For reference, see:
+<a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/assign-work-sprint?view=azure-devops">
+Assign backlog items to a sprint</a></p>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Backlogs</strong></em> (in the left-hand menu)</li>
+	<li></li>
+</ol>
+<p>For more details, read the documentation:
+<a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/?view=azure-devops" target="_blank">
+Sprints (Scrum)</a> .</p>
 <p>&nbsp;</p>
 
 </body>
