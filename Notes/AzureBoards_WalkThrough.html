@@ -98,6 +98,7 @@
 	</li>
 	<li>Click on <strong><em>Create Project</em></strong></li>
 </ol>
+<hr />
 <h3>Add Members to the Organization</h3>
 <ol>
 	<li>Click on the Azure DevOps logo (at the top left of the screen)<ul>
@@ -121,10 +122,10 @@
 				projects.</li>
 				<li><strong><em>Azure DevOps Groups</em></strong>--select the 
 				appropriate group, usually <em><strong>Project Contributors</strong></em><ul>
-					<li><em><strong>P</strong><span class="auto-style5">roject 
+					<li><em><span class="auto-style5">Project 
 					Readers</span></em>--read-only access.</li>
 					<li><span class="auto-style5"><em>Project Contributrs</em></span>--able 
-					to contribute fully to theproject.</li>
+					to contribute fully to the project.</li>
 					<li><span class="auto-style5"><em>Project Administrators</em></span>--able 
 					to configure project resources.</li>
 				</ul>
@@ -138,6 +139,7 @@
 	</ul>
 	</li>
 </ol>
+<hr />
 <h3>Add Members to the Project Team</h3>
 <p>In the left-hand menu, click on<strong><em> Project settings</em></strong> 
 (at the bottom)</p>
@@ -180,19 +182,36 @@
 	</ul>
 	</li>
 </ol>
+<hr />
 <h2>Create and Manage User Stories</h2>
-<p>&nbsp;</p>
-<h3>Create User Stories&nbsp; (aka Backlog items)</h3>
-<p>For reference, read the tutorial--<a href="https://docs.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?toc=%2fazure%2fdevops%2fboards%2fget-started-agile%2ftoc.json&amp;%3bbc=%2fazure%2fdevops%2fboards%2fget-started-agile%2fbreadcrumb%2ftoc.json&amp;view=azure-devops" target="_blank">Track 
-user stories, tasks, and features</a> .</p>
+<h3>Create Work Items</h3>
+<p>These instructions assume you are using the <em>Scrum</em> process, the Work 
+Item Types are:</p>
+<ul>
+	<li><em>Epic</em><ul>
+		<li><em>Feature </em>
+		<ul>
+			<li><em>Product Backlog Item (aka User Story)</em><ul>
+				<li><em>Task</em></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><em>Bug</em><ul>
+		<li><em>Task</em></li>
+	</ul>
+	</li>
+	<li><em>Impediment (aka issue)</em></li>
+</ul>
 <ol>
 	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
 	<strong>Boards</strong></em> (in the left-hand menu)</li>
-	<li><strong><em>C</em></strong><em><strong>lick on +New Item, </strong></em>
-	select<em><strong> t</strong><span class="auto-style1">he type, typically
-	</span><strong>Product backlog item</strong><span class="auto-style1">, and 
-	click on it</span><strong>.</strong></em>then give it a name like,<em><strong> 
-	"Create user profile"</strong></em><ul>
+	<li>Select the type of board, <em>Feature</em> or <em>Product backlog item</em>--depending 
+	on what kind of item you want to add.</li>
+	<li>Click on<em><strong> +New Item, </strong></em>then give it a name like,<em><strong> 
+	</strong></em>"<strong><em>Create user profile</em></strong>"<ul>
 		<li>Click on the item and add a <span class="auto-style5"><em>
 		description</em></span>. For example, "Users will be able to create a 
 		profile so that they can share information about themselves with other 
@@ -200,21 +219,55 @@ user stories, tasks, and features</a> .</p>
 		<li>Set the <span class="auto-style5">priority</span>.</li>
 		<li>Enter the time estimate in the <span class="auto-style5"><em>effort</em></span> 
 		field</li>
+		<li>If it's a <span class="auto-style5">feature</span>, then click on
+		<em><strong>Related work </strong></em>and add one or more
+		<span class="auto-style5"><em>Product backlog items</em></span> (user 
+		stories)</li>
 	</ul>
 	</li>
 </ol>
-<h3>Plan a Sprint, Assign Devs to User Stories</h3>
-<p>For reference, see:
+<h3>Move User Stories to Sprints</h3>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Backlog</strong></em> (in the left-hand menu)</li>
+	<li>Click on the <strong><em>view options</em></strong> (slider controls 
+	icon) and select the <strong><em>planning</em></strong> side pane</li>
+	<li>Drag and drop Backlog Items into sprints</li>
+</ol>
+<p>See:
 <a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/assign-work-sprint?view=azure-devops">
-Assign backlog items to a sprint</a></p>
+Assign Backlog Items to a Sprint</a></p>
+<hr />
+<h3>Create Tasks in a Sprint</h3>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Sprints</strong></em> (in the left-hand menu)</li>
+	<li>For any <span class="auto-style5"><em>Backlog Item</em></span> (user 
+	story), to it's right, click on <strong><em>+ New Item</em></strong>, to add 
+	one or more tasks<br />
+	The tasks are what move across the swim-lanes, not the <em>Backlog Item.</em></li>
+</ol>
+<p>For reference, read the tutorial--<a href="https://docs.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?toc=%2fazure%2fdevops%2fboards%2fget-started-agile%2ftoc.json&amp;%3bbc=%2fazure%2fdevops%2fboards%2fget-started-agile%2fbreadcrumb%2ftoc.json&amp;view=azure-devops" target="_blank">Track 
+user stories, tasks, and features</a> .</p>
+<hr />
+<p>&nbsp;Plan a Sprint, Assign Devs to User Stories</p>
+<p>Notes: <br />
+You can assign Product backlog items and tasks to a Sprint, but not Epics or 
+Features.<br />
+Only tasks will move across the task board.</p>
 <ol>
 	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
 	<strong>Backlogs</strong></em> (in the left-hand menu)</li>
 	<li></li>
 </ol>
-<p>For more details, read the documentation:
+<p>For reference, see:
+<a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/assign-work-sprint?view=azure-devops">
+Assign backlog items to a sprint</a><br />
+For more details, read the documentation:
 <a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/?view=azure-devops" target="_blank">
 Sprints (Scrum)</a> .</p>
+<hr />
+<p>Written by Brian Bird, 2019</p>
 <p>&nbsp;</p>
 
 </body>
