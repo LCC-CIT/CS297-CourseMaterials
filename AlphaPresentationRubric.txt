@@ -1,7 +1,7 @@
 CS297 Project Presentation Rubric
 Alpha Release
 
-Web site demo: 1
-Design evaluation: 1
-Dev process Evaluation: 1
-Web app evaluation: 2
+Web site demo: 1/1
+Design evaluation: 1/1
+Dev process Evaluation: 1/1
+Web app evaluation: 2/2
