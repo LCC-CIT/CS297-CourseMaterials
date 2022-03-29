@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Asure DevOps - Baords</title>
+<style type="text/css">
+.auto-style1 {
+	font-style: normal;
+}
+.auto-style2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.auto-style3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.auto-style4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: underline;
+}
+.auto-style5 {
+	text-decoration: underline;
+}
+.auto-style6 {
+	list-style-type: lower-alpha;
+}
+</style>
+<base target="_blank" />
+</head>
+
+<body>
+
+<h1 class="auto-style2">Asure DevOps - Baords</h1>
+<h2>Creating and Setting up a project</h2>
+<h3>Assumptions</h3>
+<ul>
+	<li>You already have an account on
+	<a href="https://dev.azure.com" target="_blank">Azure DevOps</a>.</li>
+	<li>You are&nbsp; a member of an organization.<ul>
+		<li>Your access level is <strong><em>Basic.</em></strong></li>
+	</ul>
+	</li>
+</ul>
+<hr />
+<h3>Create a Project</h3>
+<ol>
+	<li>In the left-hand menu, click on <em><strong>Projects</strong></em></li>
+	<li>Click on <strong><em>New team project...</em></strong><ul>
+		<li>Enter a <strong><em>project name</em></strong> and <em><strong>
+		description</strong></em></li>
+		<li>Select either <em><strong>public</strong></em> or <strong><em>
+		private</em></strong>--you can have up to 5 members in a private project</li>
+		<li>Select <strong><em>advanced</em></strong><ul>
+			<li>Under<em><strong> version control,</strong></em> select <em>
+			<strong>Git</strong></em></li>
+			<li>Under<strong><em> work item process, </em></strong>select<em><strong> 
+			Scrum</strong><span class="auto-style1"> (reccomended) or </span>
+			<strong>Agile<br />
+			</strong></em><em><span class="auto-style4">I</span><span class="auto-style5">nformation 
+			about the selections</span></em><ul>
+				<li><em><span class="auto-style5">Agile</span> gives you these 
+				work items:</em><ul>
+					<li><span class="auto-style5"><em>Epic</em></span><ul>
+						<li><span class="auto-style5"><em>Feature</em></span><ul>
+							<li><em><span class="auto-style5">User Story</span><strong>
+							</strong>or <span class="auto-style5">Bug</span></em><ul>
+								<li class="auto-style4"><em>Task</em></li>
+							</ul>
+							</li>
+						</ul>
+						</li>
+					</ul>
+					</li>
+					<li class="auto-style3"><em>Issue</em></li>
+				</ul>
+				</li>
+				<li><em><span class="auto-style5">Scrum</span> giives you these 
+				work items</em><ul>
+					<li><span class="auto-style5"><em>Epic</em></span><ul>
+						<li><span class="auto-style5"><em>Feature</em></span><ul>
+							<li><em><span class="auto-style5">Product backlog 
+							item </span>or <span class="auto-style5">Bug</span></em><ul>
+								<li class="auto-style4"><em>Task</em></li>
+							</ul>
+							</li>
+						</ul>
+						</li>
+					</ul>
+					</li>
+					<li class="auto-style4"><em>Impediment</em></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Click on <strong><em>Create Project</em></strong></li>
+</ol>
+<hr />
+<h3>Add Members to the Organization</h3>
+<ol>
+	<li>Click on the Azure DevOps logo (at the top left of the screen)<ul>
+		<li>Click on<em><strong> Organization settings</strong></em> (at the 
+		bottom left of the screen)<ul>
+			<li>Click on <strong><em>Users</em></strong></li>
+			<li>To add new team members, click on <em><strong>+ Add new users</strong></em><ul>
+				<li><strong><em>Users:</em></strong> Enter a user's e-mail 
+				address.</li>
+				<li><em><strong>Access level</strong></em>: Choose an option,
+				<strong><em>Basic</em></strong> is usually what you want.<ul>
+					<li><span class="auto-style5"><em>Basic</em></span>--user 
+					can access all features. Up to 5 are allowed on the free 
+					plan</li>
+					<li><span class="auto-style5"><em>Stakeholder</em></span>--limited 
+					access to features (mainly viewing). An unlimited number are 
+					allowed on the free plan.</li>
+				</ul>
+				</li>
+				<li><strong><em>Projects</em></strong>--select one or more 
+				projects.</li>
+				<li><strong><em>Azure DevOps Groups</em></strong>--select the 
+				appropriate group, usually <em><strong>Project Contributors</strong></em><ul>
+					<li><em><span class="auto-style5">Project 
+					Readers</span></em>--read-only access.</li>
+					<li><span class="auto-style5"><em>Project Contributrs</em></span>--able 
+					to contribute fully to the project.</li>
+					<li><span class="auto-style5"><em>Project Administrators</em></span>--able 
+					to configure project resources.</li>
+				</ul>
+				</li>
+				<li>Check the<em><strong> send email invites </strong></em>box</li>
+				<li>Click the <em><strong>Add</strong></em> button.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ol>
+<hr />
+<h3>Add Members to the Project Team</h3>
+<p>In the left-hand menu, click on<strong><em> Project settings</em></strong> 
+(at the bottom)</p>
+<ol>
+	<li class="auto-style6">Under <strong><em>General</em></strong>, selct
+	<strong><em>Teams</em></strong><ul>
+		<li>You shoudl see a team created for your project, for example,<em><strong> 
+		DemoProejct Team,</strong></em> click on it.<ul>
+			<li>Under <span class="auto-style5"><em>Administrators</em></span> 
+			(in the center column), click on<em><strong> +Add</strong></em><ul>
+				<li>Enter the name of the scrum master in the search, when they 
+				are found select them, then click on <strong><em>Save chagnes.<br />
+				</em></strong>I reccomend just making the Scrum Master for the 
+				current sprint the administrator, but you can add more 
+				administrators if you wish.</li>
+			</ul>
+			</li>
+			<li>Under <span class="auto-style5"><em>Members</em></span> (in the 
+			right-hand pane) click on <strong><em>+Add</em></strong> and enter 
+			the rest of the team members.<ul>
+				<li>Give each team member the access level of <em><strong>
+				Stakeholder</strong></em>.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li class="auto-style6">Under<em> <span class="auto-style5">Project Settings</span>,
+	<span class="auto-style5">Boards</span>,</em> select<strong><em> Tem 
+	configuration</em></strong><ul>
+		<li class="auto-style6">Select the backlogs you want to maintain. Do you 
+		want both Epics and Features, or just Features. I reccmend the default, 
+		which is just <strong><em>Features</em></strong> and<strong><em> Backlog 
+		Items</em></strong></li>
+		<li class="auto-style6">Select your work days. This is up to your team.</li>
+		<li class="auto-style6">Under<span class="auto-style5"><em> Working with 
+		bugs</em></span>, I reccomend you leave the default setting,<em><strong> 
+		Bugs are maintained with requirements</strong></em>.</li>
+	</ul>
+	</li>
+</ol>
+<hr />
+<h2>Create and Manage User Stories</h2>
+<h3>Create Work Items</h3>
+<p>These instructions assume you are using the <em>Scrum</em> process, the Work 
+Item Types are:</p>
+<ul>
+	<li><em>Epic</em><ul>
+		<li><em>Feature </em>
+		<ul>
+			<li><em>Product Backlog Item (aka User Story)</em><ul>
+				<li><em>Task</em></li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><em>Bug</em><ul>
+		<li><em>Task</em></li>
+	</ul>
+	</li>
+	<li><em>Impediment (aka issue)</em></li>
+</ul>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Boards</strong></em> (in the left-hand menu)</li>
+	<li>Select the type of board, <em>Feature</em> or <em>Product backlog item</em>--depending 
+	on what kind of item you want to add.</li>
+	<li>Click on<em><strong> +New Item, </strong></em>then give it a name like,<em><strong> 
+	</strong></em>"<strong><em>Create user profile</em></strong>"<ul>
+		<li>Click on the item and add a <span class="auto-style5"><em>
+		description</em></span>. For example, "Users will be able to create a 
+		profile so that they can share information about themselves with other 
+		users."</li>
+		<li>Set the <span class="auto-style5">priority</span>.</li>
+		<li>Enter the time estimate in the <span class="auto-style5"><em>effort</em></span> 
+		field</li>
+		<li>If it's a <span class="auto-style5">feature</span>, then click on
+		<em><strong>Related work </strong></em>and add one or more
+		<span class="auto-style5"><em>Product backlog items</em></span> (user 
+		stories)</li>
+	</ul>
+	</li>
+</ol>
+<hr />
+<h3>Move Bakclog Items (User Stories) to Sprints</h3>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Backlog</strong></em> (in the left-hand menu)</li>
+	<li>Click on the <strong><em>view options</em></strong> (slider controls 
+	icon) and select the <strong><em>planning</em></strong> side pane</li>
+	<li>Drag and drop Backlog Items into sprints</li>
+	<li>Assign a developer to each user story and enter an estimated effort (if 
+	you haen't already).</li>
+</ol>
+<p>See:
+<a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/assign-work-sprint?view=azure-devops">
+Assign Backlog Items to a Sprint</a></p>
+<hr />
+<h3>Create Tasks in a Sprint</h3>
+<ol>
+	<li>Click on <span class="auto-style5"><em>Boards</em></span>, then <em>
+	<strong>Sprints</strong></em> (in the left-hand menu)</li>
+	<li>For any <span class="auto-style5"><em>Backlog Item</em></span> (user 
+	story), to it's right, click on <strong><em>+ New Item</em></strong>, to add 
+	one or more tasks<br />
+	The tasks are what move across the swim-lanes, not the <em>Backlog Item.</em></li>
+	<li>Assign a developer to each task (normally the same one that is assigned 
+	to the Backlog Item (User Story).</li>
+	<li>As development progresses, update the <span class="auto-style5"><em>
+	Remaining Work</em></span> and <span class="auto-style5"><em>Completed Work</em></span> 
+	fields. <em><br />
+	</em>The completed work in the tasks that are done is what I will use to 
+	calculate the time you've spent working on the project.</li>
+</ol>
+<p>For reference, read the tutorial--<a href="https://docs.microsoft.com/en-us/azure/devops/boards/get-started/plan-track-work?toc=%2fazure%2fdevops%2fboards%2fget-started-agile%2ftoc.json&amp;%3bbc=%2fazure%2fdevops%2fboards%2fget-started-agile%2fbreadcrumb%2ftoc.json&amp;view=azure-devops" target="_blank">Track 
+user stories, tasks, and features</a> .</p>
+<hr />
+<p>Notes: <br />
+You can assign Product backlog items and tasks to a Sprint, but not Epics or 
+Features.<br />
+Only tasks will move across the task board.</p>
+<p>For more details, read the documentation:
+<a href="https://docs.microsoft.com/en-us/azure/devops/boards/sprints/?view=azure-devops" target="_blank">
+Sprints (Scrum)</a> .</p>
+<hr />
+<p>Written by Brian Bird, 2019</p>
+
+</body>
+
+</html>

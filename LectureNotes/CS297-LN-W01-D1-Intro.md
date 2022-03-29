@@ -9,7 +9,7 @@
 | Sprint | Week |                      Focus                       |
 | ---- | ------ | ------------------------------------------------ |
 | **1** | **1**  | ***Design review, project management, Git workflow*** |
-|     | 2 | First end of sprint meeting with client |
+|     | 2 | First end of sprint meetings |
 | 2 | 3 | Functional testing |
 |  | 4 | Continuous integration |
 | 3 | 5 | Continuous delivery |
