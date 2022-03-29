@@ -21,40 +21,87 @@
 
 [TOC]
 
-# Planning, Tracking and Reporting
-
-## Sprints
-
-- Two-week sprints
-
-- Each team member will be Scrum Master for at least one sprint.
-
-  The Scurm Master will:
-
-  - Schedule meetings.
-  - Report the dates of meetings and attencence--one report per sprint
-  - Ensure that team members keep the project management system up to date.
-
 ## Scrum Meetings
 
-During each sprint you will hold these meetings:
+During each sprint you will hold these meetings (aka "ceremonies").
 
-- Sprint planning meeting (2 hours)
-- Daily standups (15 minutes each)
-- Sprint retrospective (1 hour)
-- Meeting with client or testers(3 hours)
+### Sprint planning meeting
 
-## Planning and Tracking
+- Sprint Prioritization
+  - Analyze and evaluate product backlog.
+  - Select sprint goal. What feature (or features) will be usable at the end of the sprint.
+- Sprint planning
+  - Decide how to achieve the sprint goal (design)
+  - Create sprint backlog (tasks) from product backlog items (user stories / features)
+    - Team selects items from the product backlog they can commit to completing
+    - Tasks (Jira "child issues") are identified and each is estimated (1-16 hours)
+  - Estimate total sprint backlog in hours.
+- Guiding principles
+  - Plan collaboratively, not done alone by the ScrumMaster
+  - High-level design is considered
 
-Use Jira to plan your sprints and track your progress. 
+### Daily stand-ups
 
-- Every user story needs to have one or more tasks.
+- Parameters:
 
-- Each task will have a story point estimate and will be assigned to one team member.
+  - Daily
+    15-minutes
+    Stand-up.
 
-- Team members will enter the hours spent on a task when they mark it complete.
+  - Not for problem solving.
 
-  
+  - These are not status for the ScrumMaster
+    or product owner. 
+
+    They are commitments in front of peers.
+
+  - The "whole world" is invited, but...
+
+    - Only team members, ScrumMaster and the product owner, can talk.
+    - Helps avoid other unnecessary meetings
+
+- Everyone answers 3 questions:
+
+  - What did you do yesterday?
+  - What will you do today?
+  - Is anything in your way?
+
+### Sprint Review Meeting
+
+Meeting with client, aka "product owner" (or testers for game dev).
+
+- Team presents what it accomplished during the sprint.
+- Typically takes the form of a demo of new features or underlying architecture.
+- Informal
+  - 2-hour max prep time rule
+  - No slides
+- Whole team participates
+- Invite the world
+
+### Sprint retrospective
+
+Periodically take a look at what is and is not working.
+
+- Typically 15–30 minutes.
+- Done after every sprint.
+- Whole team participates.
+  - ScrumMaster
+  - Team
+  - Possibly product owner, customers and others
+- The team discussion focuses on what to:
+  - Start doing
+  - Stop doing
+  - Continue doing
+
+
+
+## References
+
+[Atlassian Agile Coach](https://www.atlassian.com/agile)&mdash;Atlassian's guide to Agile Scrum.
+
+[Introduction to Scrum](https://www.mountaingoatsoftware.com/presentations/an-introduction-to-scrum)&mdash;A set of slides from Mountain Goat Software
+
+
 
 ------
 
