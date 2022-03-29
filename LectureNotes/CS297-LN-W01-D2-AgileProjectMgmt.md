@@ -1,4 +1,4 @@
-<h1>Agile Project Management</h1>
+<h1>Agile Scrum Review</h1>
 
 **CS297 Programming Capstone**
 
@@ -20,6 +20,10 @@
 <h2>Contents</h2>
 
 [TOC]
+
+# Agile Scrum Review
+
+
 
 ## Scrum Roles
 
@@ -51,6 +55,12 @@ For the web dev teams, this is your client.
 - Members should be full-time in the "real world".
 - Teams are self-organizing&mdash;Ideally. No titles, but occasionally a possibility (like lead developer).
 
+### Other Stakeholders
+
+- Management
+- End-users
+- Investors
+
 
 
 ## Scrum Meetings
@@ -59,9 +69,14 @@ During each sprint you will hold these meetings (aka "ceremonies").
 
 ### Sprint planning meeting
 
+- Participants
+  - ScrumMaster
+  - Team
+  - Product owner (if available)
 - Sprint Prioritization
   - Analyze and evaluate product backlog.
   - Select sprint goal. What feature (or features) will be usable at the end of the sprint.
+  - Consult the product owner on priorities if they are not in the planning meeting.
 - Sprint planning
   - Decide how to achieve the sprint goal (design)
   - Create sprint backlog (tasks) from product backlog items (user stories / features)
@@ -69,8 +84,10 @@ During each sprint you will hold these meetings (aka "ceremonies").
     - Tasks (Jira "child issues") are identified and each is estimated (1-16 hours)
   - Estimate total sprint backlog in hours.
 - Guiding principles
-  - Plan collaboratively, not done alone by the ScrumMaster
-  - High-level design is considered
+  - Plan collaboratively, not done alone by the ScrumMaster.
+  - High-level design is considered.
+    - Low-level design will be done during the sprint.
+    - Consult with the product owner if there are questions about details of the low-level design.
 
 ### Daily stand-ups
 
@@ -82,14 +99,14 @@ During each sprint you will hold these meetings (aka "ceremonies").
 
   - Not for problem solving.
 
-  - These are not status for the ScrumMaster
+  - These are not status reports for the ScrumMaster
     or product owner. 
 
     They are commitments in front of peers.
 
   - The "whole world" is invited, but...
 
-    - Only team members, ScrumMaster and the product owner, can talk.
+    - Only team members, ScrumMaster and the product owner (if present), can talk.
     - Helps avoid other unnecessary meetings
 
 - Everyone answers 3 questions:
@@ -104,9 +121,12 @@ Meeting with client, aka "product owner" (or testers for game dev).
 
 - Team presents what it accomplished during the sprint.
 - Typically takes the form of a demo of new features or underlying architecture.
+  - Demo should be working software that the product owner can interact with.
+  - The team should demo the features, then let the product owner try them out.
+  - Provide access to the demo software for the product owner to test after the demo.
 - Informal
-  - 2-hour max prep time rule
-  - No slides
+  - 2-hour max prep time rule.
+  - No slides.
 - Whole team participates
 - Invite the world
 
