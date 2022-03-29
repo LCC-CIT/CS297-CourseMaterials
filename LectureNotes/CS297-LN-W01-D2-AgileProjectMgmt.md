@@ -21,6 +21,38 @@
 
 [TOC]
 
+## Scrum Roles
+
+### Product owner
+
+For the web dev teams, this is your client.
+
+- Define the features of the product.
+- Decide on release date and content.
+- Be responsible for the profitability of the product (ROI).
+- Prioritize features according to market value.
+- Adjust features and priority every iteration, as needed.
+- Accept or reject work results.
+
+### ScrumMaster
+
+- Represents management (or in the case of this class, your instructor) to the project.
+- Responsible for enacting Scrum values and practices.
+- Removes impediments.
+- Ensures that the team is fully functional and productive.
+- Enables close cooperation across all roles and functions.
+- Shields the team from external interferences.
+
+### Team
+
+- Typically 5-9 people in the "real world", 3 to 4 in our class.
+- Cross-functional:
+  Programmers, testers, user experience designers, etc.
+- Members should be full-time in the "real world".
+- Teams are self-organizing&mdash;Ideally. No titles, but occasionally a possibility (like lead developer).
+
+
+
 ## Scrum Meetings
 
 During each sprint you will hold these meetings (aka "ceremonies").
@@ -100,6 +132,8 @@ Periodically take a look at what is and is not working.
 [Atlassian Agile Coach](https://www.atlassian.com/agile)&mdash;Atlassian's guide to Agile Scrum.
 
 [Introduction to Scrum](https://www.mountaingoatsoftware.com/presentations/an-introduction-to-scrum)&mdash;A set of slides from Mountain Goat Software
+
+[Scrum: Who are the Key Stakeholders that Should be Attending Every Sprint Review](https://www.scrum.org/resources/blog/scrum-who-are-key-stakeholders-should-be-attending-every-sprint-review)&mdash;Scrum.org blog post.
 
 
 
