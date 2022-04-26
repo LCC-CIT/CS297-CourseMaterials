@@ -74,4 +74,4 @@ Suggested topics:
 
 ---
 
-Written by Brian Bird, Spring 2012, revised spring 2020
+Written by Brian Bird, Spring 2012, revised spring <time>2022</time>
