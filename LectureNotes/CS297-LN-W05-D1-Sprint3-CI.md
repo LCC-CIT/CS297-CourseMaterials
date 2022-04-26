@@ -1,4 +1,15 @@
-<h1>Start of Sprint 3, CI / CD</h1>
+---
+​---
+title: CI
+description: Overview of Continuous Integration using GitHub Actions
+keywords: CI, Continuous Integration, GitHub Actions
+material: Lecture Notes
+generator: Typora
+author: Brian Bird
+​---
+---
+
+<h1>Start of Sprint 3, Continuous Integration</h1>
 
 **CS297 Programming Capstone**
 
