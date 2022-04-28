@@ -2,7 +2,7 @@
 ​---
 title: CI
 description: Overview of Continuous Integration using GitHub Actions
-keywords: CI, Continuous Integration, GitHub Actions
+keywords: CI, Continuous Integration, GitHub Actions, yaml
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
@@ -144,7 +144,7 @@ Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Bui
 Sten Pittet, [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing), Atlassian.
 
 [^1]: Integration tests are done to verify that the code modules that are being merged work together correctly. Functional tests verify that the end result of any action meets the business requirements&mdash;it doesn't check intermediate states or interactions between code modules. See the article by Sten Pittet.
-[^2]: YAML, is a human-readable computer language used for configuration and meta-data for a variety of different computer applications. 
+[^2]: YAML, is a human-readable computer language used for configuration and meta-data for a variety of different computer applications. The syntax is a bit like JSON without curly braces.
 
 
 
