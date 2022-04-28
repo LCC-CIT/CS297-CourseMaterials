@@ -143,6 +143,8 @@ Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Bui
 
 Sten Pittet, [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing), Atlassian.
 
+Haris Khan, [Automated Testing with Selenium Using GitHub Actions – A Step-by-Step Guide](https://www.blazemeter.com/blog/automated-testing-selenium-github-actions), BlazeMeter, 2022.
+
 [^1]: Integration tests are done to verify that the code modules that are being merged work together correctly. Functional tests verify that the end result of any action meets the business requirements&mdash;it doesn't check intermediate states or interactions between code modules. See the article by Sten Pittet.
 [^2]: YAML, is a human-readable computer language used for configuration and meta-data for a variety of different computer applications. 
 
