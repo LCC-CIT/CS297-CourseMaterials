@@ -38,17 +38,27 @@ The script that defines what GitHub Actions will do for you will be a file writt
 
 - Create a directory in your repository with this path: `.github/workflows`
 - Create a workflow file by creating text file with the extension `.yaml` and name it something descriptive, like: `ci-workflow.yaml`
-- The easiest way to edit this file is to use Visual Studio Code with an extension that provides help writing GitHub Actions yaml files.
-  - I'm using GitHub Actions v0.24.1 by Christopher Schleiden. It has been downloaded 77, 595 times and is rated 5 stars with 14 reviews.
-  - I'm using GitHub`v0.30.7`by KnisterPeter with 865,974 downloads and rated 5 stars with 8 reviews. This extension Integrates github and its workflows into vscode.
-  - The extension provides GitHub Actions context sensitive documentation and auto-completion suggestions using the correct syntax and key words.
-  - You need to create a new [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and register it in the extension. 
-    - On GitHub, go to your login profile (the circle containing your picture or avatar in the upper right-hand corner of the page), select "Settings" and follow these [instructions to create a token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token).
-      - Select all the scopes for "repo".
-    - In VS Code, press Ctrl+Shift+p to open the command palette and type `GitHub: Set Personal Access Token`. You will then be prompted to enter the token generated from GitHub.
-- 
+- The easiest way to edit this file is to use Visual Studio Code with an extension that provides help writing GitHub Actions yaml files. I've tried these three:
+  - YAML v1.7.0 by Red Hat. This one works quite well!
+  - GitHub Actions v0.24.1 by Christopher Schleiden. This worked, but provided somewhat minimal syntax checking.
+  - GitHub`v0.30.7`by KnisterPeter. Even after providing the app with a GitHub Personal Authentication Token, I didn't get any help with my yaml file.
 
+### YAML Syntax
 
+There are two types of data in a yaml file, key-value pairs and arrays.
+
+- key-value pairs use a colon to separate the key and value. For example: `name: CI`
+
+#### steps
+
+Tasks to execute when running a job.
+
+##### uses
+
+This is where we describe the actions that will be taken. We find the actions that are possible in the [GitHub Actions Marketplace](https://github.com/marketplace?type=actions). Here are the ones we are using:
+
+- [checkout](https://github.com/marketplace/actions/checkout)
+- [setup-dotnet](https://github.com/marketplace/actions/setup-dotnet)
 
 
 
