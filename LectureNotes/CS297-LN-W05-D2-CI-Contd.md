@@ -36,24 +36,62 @@ author: Brian Bird
 
 The script that defines what GitHub Actions will do for you will be a file written in YAML (YAML is a bit like JSON without curly braces).
 
-- Create a directory in your repository with this path: `.github/workflows`
-- Create a workflow file by creating text file with the extension `.yaml` and name it something descriptive, like: `ci-workflow.yaml`
+- Create a directory in your repository with this path:
+  `.github/workflows`
+- Create a workflow file by creating a text file with the extension `.yaml` and give it a name, like:
+  `ci-workflow.yaml`
 - The easiest way to edit this file is to use Visual Studio Code with an extension that provides help writing GitHub Actions yaml files. I've tried these three:
-  - YAML v1.7.0 by Red Hat. This one works quite well!
+  - YAML v1.7.0 by Red Hat. <u>This one works quite well!</u>
   - GitHub Actions v0.24.1 by Christopher Schleiden. This worked, but provided somewhat minimal syntax checking.
   - GitHub`v0.30.7`by KnisterPeter. Even after providing the app with a GitHub Personal Authentication Token, I didn't get any help with my yaml file.
 
 ### YAML Syntax
 
-There are two types of data in a yaml file, key-value pairs and arrays.
+#### File Beginning and End
 
-- key-value pairs use a colon to separate the key and value. For example: `name: CI`
+YAML files start with `---` and end with `...`
+
+#### Data
+
+There are two types of data in a yaml file, key-value pairs (aka dictionaries) and lists (aka arrays).
+
+- Key-value pairs: use a colon to separate the key and value. 
+  For example: `name: CI`
+
+- Arrays: multiple items prefixed with a dash. For example:
+  ```yaml
+  - Squash
+  - Cucumber
+  - Potato
+  ```
+
+- Mix of key-value pairs and arrays. Example:
+  ```
+  - Vegetables:
+  	- Squash
+  	- Cucumber
+  	- Potato
+  - Fruit:
+  	- Apple
+  	- Orange
+  	- Bannana
+  ```
+
+### Parts of an Actions Workflow
+
+#### on
+
+Specifies a trigger for the workflow. [Here is a list of triggers](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
 
 #### steps
 
 Tasks to execute when running a job.
 
-##### uses
+#### jobs
+
+A job is a set of steps in a workflow that execute on the same runner.
+
+#### uses
 
 This is where we describe the actions that will be taken. We find the actions that are possible in the [GitHub Actions Marketplace](https://github.com/marketplace?type=actions). Here are the ones we are using:
 
