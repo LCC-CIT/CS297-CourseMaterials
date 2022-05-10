@@ -139,6 +139,8 @@ Cam Soper, Scott Addie, Colin Dembovsky, [DevOps for ASP.NET Core Developers](ht
 
 [GitHub Actions](https://docs.github.com/en/actions), GitHub documentation.
 
+rainer Stropek, [C# ASP.NET 5 - CI/CD with GitHub Actions - Part 1](https://youtu.be/R5ppadIsGbA) YouTube, 2021.
+
 Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Azure)](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery), Microsoft, 2022.
 
 Sten Pittet, [The different types of software testing](https://www.atlassian.com/continuous-delivery/software-testing/types-of-software-testing), Atlassian.
