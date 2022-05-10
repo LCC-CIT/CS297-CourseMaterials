@@ -1,12 +1,10 @@
 ---
-​---
 title: Functional Testing
 description: Overview of Functional Testing
-keywords: Test, Functional Test
+keywords: testing, functional test, black box test, bug report, bug tracking, test cases
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
-​---
 ---
 
 <h1>Functional Testing</h1>
@@ -53,24 +51,23 @@ Multiple sites (can all be on the same server)
 
 Here is an example taken from Hamilton (2022) :
 
-![](D:\Repos\CS297-CourseMaterials\LectureNotes\FormatForStandardTestCases.png)
+![](FormatForStandardTestCases.png)
 
 ## Bug Tracking
 
 #### Bug / issue tracking systems
 
 - Specialized for bug tracking
-
-- - [BugZilla](https://www.bugzilla.org)
+  - BugZilla](https://www.bugzilla.org)
   - [Mantis](http://www.mantisbt.org)
   - GitHub Issues
 
 - Agile project management systems which include issue tracking:
-
-- - Jira
+  - Jira
   - Pivotal Tracker
   - ZenHub
   - Azure DevOps Boards
+
 
 #### Make bug reports useful
 Ask your testers to enter the following information:
@@ -80,27 +77,26 @@ Ask your testers to enter the following information:
 - Steps to reproduce the bug
 
 - Description of the failure
-
-- - Include any error messages
+  - Include any error messages
   - Include a screen-shot if needed
+
 
 
 
 ##  References
 
-[What is Functional Testing?](https://dzone.com/articles/what-is-functional-testing)
- Functional testing focuses on  testing an application through the user interface to ensure that all  user stories have been correctly implemented. - DZone article, 2016.
+ Ashley Dotterweich, [What is Functional Testing?](https://dzone.com/articles/what-is-functional-testing), DZone article, 2016.
+Functional testing focuses on  testing an application through the user interface to ensure that all  user stories have been correctly implemented.
 
 Thomas Hamilton, [How to Write Test Cases: Sample Template with Examples](https://www.guru99.com/test-case.html), Guru99, 2019, revised 2022.
 How to write a set of test cases for manually testing a software application.
-[
- How To Create Your Own Front-End Website Testing Plan](https://www.smashingmagazine.com/2014/11/how-to-create-your-own-front-end-website-testing-plan/)
- This article shows you what to consider when creating a front-end  testing plan and how to test efficiently across browsers, devices and  web pages. - SmashingMag, 2014.
 
-[Differences between Software Testing and Game Testing](http://www.gamasutra.com/blogs/JohanHoberg/20140721/221444/Differences_between_Software_Testing_and_Game_Testing.php)
- What is the major difference between testing an application or a software system compared to testing a game? - Gamasutra, 2014.
+Lawrence Howlett, [ How To Create Your Own Front-End Website Testing Plan](https://www.smashingmagazine.com/2014/11/how-to-create-your-own-front-end-website-testing-plan/), SmashingMag, 2014.
+This article shows you what to consider when creating a front-end  testing plan and how to test efficiently across browsers, devices and  web pages.
+
+Johan Hoberg, [Differences between Software Testing and Game Testing](http://www.gamasutra.com/blogs/JohanHoberg/20140721/221444/Differences_between_Software_Testing_and_Game_Testing.php), Gamasutra, 2014.
+What is the major difference between testing an application or a software system compared to testing a game?
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
