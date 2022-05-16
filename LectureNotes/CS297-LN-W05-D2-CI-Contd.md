@@ -105,26 +105,32 @@ This is where we describe the actions that will be taken. We find the actions th
 The example below will build and test the Book Reviews project whenever code is pushed to the Test branch. 
 
 ```YAML
- pull_request:
-    branches: [ main ]
+ name: Continuous Integration
+
+on:
+  push:
+    branches: 
+    - Test
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+    - name: Check out code
+      uses: actions/checkout@v3
+    
+    - name: Setup .NET Core 3.1
+      uses: xt0rted/setup-dotnet@v1.3.0
       with:
-        dotnet-version: 5.0.x
+        dotnet-version: '3.1.x'
     - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet restore BookReviews/BookReviews.sln
+
+    - name: Build app
+      run: dotnet build BookReviews/BookReviews.sln -c Release --no-restore
+
+    - name: Run Unit Tests
+      run: dotnet test BookReviews/Tests/Tests.csproj -c Release --no-build
 
 ```
 
@@ -148,8 +154,6 @@ Cam Soper, Scott Addie, Colin Dembovsky, [DevOps for ASP.NET Core Developers](ht
 [GitHub Actions](https://docs.github.com/en/actions), GitHub documentation.
 
 Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Azure)](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery), Microsoft, 2022.
-
-[^]: 
 
 
 
