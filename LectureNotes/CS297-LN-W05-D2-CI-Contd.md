@@ -2,7 +2,7 @@
 ​---
 title: CI
 description: Overview of Continuous Integration using GitHub Actions
-keywords: CI, Continuous Integration, GitHub Actions, yaml
+keywords: CI, Continuous Integration, GitHub Actions, yaml, unit test, test runner, workflow
 material: Lecture Notes
 generator: Typora
 author: Brian Bird
@@ -34,7 +34,7 @@ author: Brian Bird
 
 ## Creating a GitHub Actions Workflow File in YAML
 
-The script that defines what GitHub Actions will do for you will be a file written in YAML (YAML is a bit like JSON without curly braces).
+The script that defines what GitHub Actions will do will be a file written in YAML (YAML is a bit like JSON without curly braces).
 
 - Create a directory in your repository with this path:
   `.github/workflows`
@@ -53,7 +53,7 @@ YAML files start with `---` and end with `...`
 
 #### Data
 
-There are two types of data in a yaml file, key-value pairs (aka dictionaries) and lists (aka arrays).
+There are two types of data in a yaml file: key-value pairs (aka dictionaries) and arrays (aka lists).
 
 - Key-value pairs: use a colon to separate the key and value. 
   For example: `name: CI`
@@ -105,12 +105,13 @@ This is where we describe the actions that will be taken. We find the actions th
 The example below will build and test the Book Reviews project whenever code is pushed to the Test branch. 
 
 ```YAML
- name: Continuous Integration
+name: Continuous Integration
 
 on:
   push:
     branches: 
     - Test
+    - main
 
 jobs:
   build:
@@ -131,8 +132,63 @@ jobs:
 
     - name: Run Unit Tests
       run: dotnet test BookReviews/Tests/Tests.csproj -c Release --no-build
-
 ```
+
+
+
+### Unit Test Issues
+
+The first time I tried to run this, I ran into issues with my unit tests. When the Test Runner reached the "Run Unit Tests" step, it would get as far as:
+
+> Starting test execution, please wait...   
+> A total of 1 test files matched the specified pattern.
+
+And then it would hang indefinitely.
+
+#### Debugging the unit tests
+
+- I ran my tests from the command line on Ubuntu Linux, using the same parameters as in the Actions file, and everything passed. So, it seemed that the a problem was with the way the Actions workflow runner runs the tests.
+
+- I tried commenting out tests and it seemed that if I commented out one or more of the tests that called `async` controller methods, then the test would run. It seemed that there was a problem with running tests in parallel. 
+
+- I checked my tests to see if they were *thread-safe* and found that my repository was <u>not</u> thread-safe. The `List` that I used as a data store was `static` and C# Lists themselves are not thread-safe. To make my repository thread-safe, I made these two changes:
+
+  - I changed the List to a `ConcurrentBag` which is a thread-safe collection object.
+  - I made the ConcurrentBag not static, the repository now uses a ConcurrentBag object.
+
+  These changes did not solve the problem of my tests hanging on GitHub Actions.
+
+- I tried changing the .NET version to 5.0. This did not solve the problem.
+
+- 
+  I tried adding a command line option to turn off running the tests in parallel:
+
+  `run: dotnet test BookReviews/Tests/Tests.csproj -c Release --no-build  -- MSTest.parallelizeTestCollections=false`
+
+  This didn't solve the problem either.
+
+#### Solving the unit test problem
+
+Finally, I added attributes to the test classes that specify that all of the classes are in one *collection*. By default, xUnit will run each collection in parallel (simultaneously). This attribute, `[Collection("All Tests")]`, puts all the tests in one collection, so they are not run in parallel.
+
+This solved the problem. My tests now run and pass!
+
+## Development Workflow
+
+My *development workflow* (not to be confused with the Actions *workflow* file.) When I have changes ready to merge into the main branch, I don't directly merge them to main. I do this:
+
+1. 
+   Merge the *main* branch into my *test* branch.
+
+   This triggers the Actions CI workflow to execute. This is good. It will verify that the code merged from main passes. I now have a verified baseline for testing my new code.
+
+2. Merge my new code branch into the test branch.
+
+   This triggers the CI workflow to run again to verify that my new code builds without errors and unit tests pass (or not) after merging with the code from main.
+
+3. Merge the test branch into the main branch.
+
+   This triggers the CI workflow again to verify that all is well after merging to main.
 
 
 
