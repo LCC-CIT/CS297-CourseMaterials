@@ -63,7 +63,7 @@ At Intel Architecture Labs:
 
 ## References
 
-Luke Frieler, [Alpha vs. Beta Testing](https://www.centercode.com/blog/2011/01/alpha-vs-beta-testing), Centercode blog.
+Luke Frieler, [Alpha vs. Beta Testing](https://www.centercode.com/blog/2011/01/alpha-vs-beta-testing), Centercode blog, 2019.
 
 
 

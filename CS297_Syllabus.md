@@ -1,16 +1,16 @@
 <h1>Syllabus for CS297: Programming Capstone</h1>    
 
-**Spring 2022**
+**Spring 2023**
 
 
 
-| <u>Class</u>      |                                                     |      | <u>Instructor</u> |                                                     |
-| ----------------- | --------------------------------------------------- | ---- | ----------------- | --------------------------------------------------- |
-| **Course Number** | CS297                                               |      | **Name**          | Brian Bird                                          |
-| **CRN**           | 40728                                               |      | **Email**         | birdb@lanecc.edu                                    |
-| **Time and Day**  | 2:00–3:50, M–Th                                     |      | **Office Hours**  | 1:00&ndash;1:50, M&ndash;Th                         |
-| **Room**          | Building 19, Room 132                               |      | **Room**          | Building 19, Room 152                               |
-| **Zoom**          | [91073578728](https://lanecc.zoom.us/j/91073578728) |      | **Zoom**          | [94002309439](https://lanecc.zoom.us/j/94002309439) |
+| <u>Class</u>      |                                                       |      | <u>Instructor</u> |                                                       |
+| ----------------- | ----------------------------------------------------- | ---- | ----------------- | ----------------------------------------------------- |
+| **Course Number** | CS297                                                 |      | **Name**          | Brian Bird                                            |
+| **CRN**           | 40613                                                 |      | **Email**         | birdb@lanecc.edu                                      |
+| **Time and Day**  | 2:00–3:50, M–Th                                       |      | **Office Hours**  | 4:00&ndash;4:50, M&ndash;Th                           |
+| **Room**          | Building 19, Room 132                                 |      | **Room**          | Building 19, Room 152                                 |
+| **Zoom**          | [972 2093 7871](https://lanecc.zoom.us/j/97220937871) |      | **Zoom**          | [925 3962 6829](https://lanecc.zoom.us/j/92539626829) |
 
 
 
