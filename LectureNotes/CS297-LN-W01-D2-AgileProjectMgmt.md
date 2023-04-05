@@ -69,6 +69,8 @@ During each sprint you will hold these meetings (aka "ceremonies").
 
 ### Sprint planning meeting
 
+This meeting happens at the beginning of the sprint
+
 - Participants
   - ScrumMaster
   - Team
@@ -117,7 +119,9 @@ During each sprint you will hold these meetings (aka "ceremonies").
 
 ### Sprint Review Meeting
 
-Meeting with client, aka "product owner" (or testers for game dev).
+This meeting happens at the end of the sprint, after you have finished the coding for the sprint and published a new version of the app. 
+
+This is primarily a meeting with client, aka "product owner".
 
 - Team presents what it accomplished during the sprint.
 - Typically takes the form of a demo of new features or underlying architecture.
@@ -132,7 +136,7 @@ Meeting with client, aka "product owner" (or testers for game dev).
 
 ### Sprint retrospective
 
-Periodically take a look at what is and is not working.
+This meeting happens after the Sprint Review Meeting. This is a time for the team to take a look at what is and is not working.
 
 - Typically 15–30 minutes.
 - Done after every sprint.
@@ -160,6 +164,6 @@ Periodically take a look at what is and is not working.
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2022</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
