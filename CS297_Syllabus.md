@@ -33,8 +33,6 @@ Upon completion of this course you will be able to:
 3. Demonstrate the ability to work as an effective member of a project team. 
            
 
-
-
 ## Learning Resources
 
 ### Texts  
@@ -57,20 +55,23 @@ Since one of the main objectives for this class is to learn to  produce a major 
 
 
 
-| Assessment Activities                  |Percentage of grade |
+| Assessment                  |Percentage of grade |
 | --------------------------------------------- | ------------------ |
-| <u>Team</u> | 50% |
-| - Team assignments | |
-| - Capstone project | |
-| <u>Individual</u> |50% |
-| - Individual assignments | |
-| - Participation with your team | |
-| - Git pull requests created | |
-| - Completed agile user stories | |
-| - Class[^1] and team meeting attendance | |
-| - Hours worked <br />(A minimum of 12 hours per week including class time) | |
-
-
+| ***Team*** | ***50%*** |
+| Team assignments | 10% |
+| Capstone project | 40% |
+| - Completeness (all high priority features implemented) |  |
+| - Code quality (coding conventions, best practices) |  |
+| - Testing (unit, functional, integration, load) |  |
+| - Quality of the final product (Design, UX, performance) |  |
+| ***Individual*** |***50%*** |
+| Individual assignments | 10% |
+| Participation with your team | 40% |
+| - Git pull requests created (1 or more per week) | |
+| - User story hours (8 or more pre week) | |
+| - Sprint meeting participation (15 per term) | |
+| - Team stand-up + work sessions (40 or more per term) | |
+| - Class[^1] and work hours (12 or more per week) | |
 
  Letter grades for the course will be determined by the following percentages:        
 
