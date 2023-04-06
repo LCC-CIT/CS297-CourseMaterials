@@ -4,21 +4,16 @@
 
 
 
-<h2>Schedule</h2>
+<h2>Course Schedule</h2>
 
-| Sprint | Week |                      Focus                       |
-| ---- | ------ | ------------------------------------------------ |
-| **1** | **1**  | ***Design review, project management, Git workflow*** |
-|     | 2 | First end of sprint meetings |
-| 2 | 3 | Functional testing |
-|  | 4 | Continuous integration |
-| 3 | 5 | Continuous delivery |
-|  | 6 | <u>Alpha release</u> |
-| 4 | 7 | Dev Ops |
-|  | 8 | <u>Beta release</u> |
-| 5 | 9 | Code freeze |
-|  | 10 | <u>Release to production</u> |
-|  | 11 | Final presentations |
+| Sprint | Week, Topic                               |      | Sprint | Week, Topic                     |
+| ------ | ----------------------------------------- | ---- | ------ | ------------------------------- |
+| 1      | <mark>1. Agile Scrum, Git workflow</mark> |      | 4      | 7. DevOps                       |
+|        | 2. End-of-sprint meetings                 |      |        | 8. ***Beta release***           |
+| 2      | 3. Functional testing                     |      | 5      | 9l Code freeze                  |
+|        | 4. Continuous integration                 |      |        | 10. ***Release to production*** |
+| *3*    | 5. Continuous delivery                    |      |        | 11. Final presentations         |
+|        | 6. ***Alpha release***                    |      |        |                                 |
 
 
 
