@@ -4,7 +4,7 @@
 
 
 
-<h2>Schedule</h2>
+<h2>Course Schedule</h2>
 
 | Sprint | Week |                      Focus                       |                                             |                      Sprint                      |                      Week                      |                      Focus                      |
 | ---- | ------ | ------------------------------------------------ | ---- | ----- | -------| ------------------------------------------------ |
@@ -23,7 +23,9 @@
 
 # Agile Scrum Review
 
+This week we will review aspects of the Scrum process that you will need to know as you start your first sprint, this includes the *sprint planning* meeting and the *daily stand-up* meetings.
 
+Next week we will review the *sprint review* meeting and the *sprint retrospective*.
 
 ## Scrum Roles
 
@@ -89,6 +91,19 @@ During each sprint you will hold these meetings (aka "ceremonies").
     - Low-level design will be done during the sprint.
     - Consult with the product owner if there are questions about details of the low-level design.
 
+#### Sprint Planning Meeting report  
+For this class (not the real world), you will report these items:
+
+- Time and date of the meeting.
+- List of real-time participants.
+- Name of the scrum master.
+- Time & date planned for product review with client.
+- Any blocking issues that might need to be resolved.
+
+This report will be submitted at the end of the sprint.
+
+
+
 ### Daily stand-ups
 
 - Parameters:
@@ -115,35 +130,14 @@ During each sprint you will hold these meetings (aka "ceremonies").
   - What will you do today?
   - Is anything in your way?
 
-### Sprint Review Meeting
+#### Daily Stand-up Meeting Report
 
-Meeting with client, aka "product owner" (or testers for game dev).
+For this class (not the real world), you will make a report that lists these items for each meeting:
 
-- Team presents what it accomplished during the sprint.
-- Typically takes the form of a demo of new features or underlying architecture.
-  - Demo should be working software that the product owner can interact with.
-  - The team should demo the features, then let the product owner try them out.
-  - Provide access to the demo software for the product owner to test after the demo.
-- Informal
-  - 2-hour max prep time rule.
-  - No slides.
-- Whole team participates
-- Invite the world
+- Time and date of the meeting.
+- List of real-time participants.
 
-### Sprint retrospective
-
-Periodically take a look at what is and is not working.
-
-- Typically 15–30 minutes.
-- Done after every sprint.
-- Whole team participates.
-  - ScrumMaster
-  - Team
-  - Possibly product owner, customers and others
-- The team discussion focuses on what to:
-  - Start doing
-  - Stop doing
-  - Continue doing
+This report will be submitted at the end of the sprint.
 
 
 
@@ -160,6 +154,6 @@ Periodically take a look at what is and is not working.
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2022</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------

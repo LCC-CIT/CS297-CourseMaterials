@@ -85,8 +85,10 @@ Since one of the main objectives for this class is to learn to  produce a major 
 
 ### Late Work
 
-- The grade for assignments will be reduced 10% if they are submitted late. 
-- The final project is due at the time scheduled for the final exam.
+- The grade for assignments will be reduced 10% if they are submitted late except: 
+  - Individual weekly reports and team sprint reports will not be accepted if they are more than three days late.
+  - The final project is due at the time scheduled for the final exam and will not be accepted late.
+
 - Exceptions will be made only for illness or serious emergency situations. 
 
 ### Academic Honesty 
