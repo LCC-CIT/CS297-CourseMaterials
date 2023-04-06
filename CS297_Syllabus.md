@@ -1,16 +1,16 @@
 <h1>Syllabus for CS297: Programming Capstone</h1>    
 
-**Spring 2022**
+**Spring 2023**
 
 
 
-| <u>Class</u>      |                                                     |      | <u>Instructor</u> |                                                     |
-| ----------------- | --------------------------------------------------- | ---- | ----------------- | --------------------------------------------------- |
-| **Course Number** | CS297                                               |      | **Name**          | Brian Bird                                          |
-| **CRN**           | 40728                                               |      | **Email**         | birdb@lanecc.edu                                    |
-| **Time and Day**  | 2:00–3:50, M–Th                                     |      | **Office Hours**  | 1:00&ndash;1:50, M&ndash;Th                         |
-| **Room**          | Building 19, Room 132                               |      | **Room**          | Building 19, Room 152                               |
-| **Zoom**          | [91073578728](https://lanecc.zoom.us/j/91073578728) |      | **Zoom**          | [94002309439](https://lanecc.zoom.us/j/94002309439) |
+| <u>Class</u>      |                                                       |      | <u>Instructor</u> |                                                       |
+| ----------------- | ----------------------------------------------------- | ---- | ----------------- | ----------------------------------------------------- |
+| **Course Number** | CS297                                                 |      | **Name**          | Brian Bird                                            |
+| **CRN**           | 40613                                                 |      | **Email**         | birdb@lanecc.edu                                      |
+| **Time and Day**  | 2:00–3:50, M–Th                                       |      | **Office Hours**  | 4:00&ndash;4:50, M&ndash;Th                           |
+| **Room**          | Building 19, Room 132                                 |      | **Room**          | Building 19, Room 152                                 |
+| **Zoom**          | [972 2093 7871](https://lanecc.zoom.us/j/97220937871) |      | **Zoom**          | [925 3962 6829](https://lanecc.zoom.us/j/92539626829) |
 
 
 
@@ -63,11 +63,12 @@ Since one of the main objectives for this class is to learn to  produce a major 
 | - Team assignments | |
 | - Capstone project | |
 | <u>Individual</u> |50% |
+| - Individual assignments | |
 | - Participation with your team | |
-| - Git pull requests | |
+| - Git pull requests created | |
 | - Completed agile user stories | |
 | - Class[^1] and team meeting attendance | |
-| - Hours worked | |
+| - Hours worked <br />(A minimum of 12 hours per week including class time) | |
 
 
 
@@ -107,18 +108,19 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 ## Academic Calendar
 
-| Spring Term 2022                  |               |
-| --------------------------------- | ------------- |
-| Term begins                       | 3/28          |
-| Last day to receive refund        | 4/3, 11:59 pm |
-| Spring Conference, College closed | 5/6           |
-| Last day for schedule changes     | 5/20          |
-| Memorial Day holiday              | 5/30          |
-| Final Exam                        | 6/6           |
+| Spring Term 2023                           |                 |
+| ------------------------------------------ | --------------- |
+| Term begins                                | 4/3, Monday     |
+| Last day to receive refund                 | 4/10, Monday    |
+| Spring conference for faculty (no classes) | 5/5, Friday     |
+| Last day for schedule changes              | 5/26, Friday    |
+| Memorial Day Holiday                       | 5/29, Monday    |
+| Final Quiz                                 | 6/12            |
+| Finals Week                                | 6/12&ndash;6/16 |
 
 
 
-## Accessibility and Accommodations: 
+### Accessibility and Accommodations: 
 
 If you need support or assistance because of a disability, you may  be eligible for academic accommodations through Disability Services. For more information, contact Disability Services at 463-5150 (voice) or  463-3079 (TTY), or stop by building 1, room    218. 
 
@@ -130,18 +132,19 @@ Please be aware that any accessible tables and chairs in this  room should remai
 
 (May be subject to change)
 
-| Sprint | Week | Focus                  | Assignments                                   |
-| ------ | ---- | ---------------------- | --------------------------------------------- |
-| 1      | 1    | Team/Git Workflow      | Set up team accounts                          |
-|        | 2    | Remote collaboration   |                                               |
-| 2      | 3    |                        |                                               |
-|        | 4    | Functional Testing     | Test procedure                                |
-| 3      | 5    | Continuous Integration | Test report                                   |
-|        | 6    | Alpha Release          | Update project docs                           |
-| 4      | 7    |                        | Alpha presentation                            |
-|        | 8    | Beta Release           | Report on bugs, bug fixes, new features       |
-| 5      | 9    | Code freeze            | Update project docs again                     |
-|        | 10   | Release to Production  | Submit final project code, final presentation |
+| Sprint | Week | Focus                  | Assignments                                           |
+| ------ | ---- | ---------------------- | ----------------------------------------------------- |
+| 1      | 1    | Team/Git Workflow      | Set up team accounts                                  |
+|        | 2    | Remote collaboration   |                                                       |
+| 2      | 3    |                        |                                                       |
+|        | 4    | Functional Testing     | Test procedure                                        |
+| 3      | 5    | Continuous Integration | Test report                                           |
+|        | 6    | Alpha Release          | Update project docs                                   |
+| 4      | 7    |                        | Alpha presentation                                    |
+|        | 8    | Beta Release           | Report on bugs, bug fixes, new features               |
+| 5      | 9    | Code freeze            | Update project docs again                             |
+|        | 10   | Release to Production  | Submit final project code                             |
+|        | 11   | Finals week            | Final project presentations (instead of a final exam) |
 
 
 

@@ -13,6 +13,14 @@ author: Brian Bird
 
 Your presentation should be 15 to 20 minutes long. The times listed in the headings below are suggestions.
 
+## Overview of the Project - 2 minutes
+
+Refresh eveyone's memory of the "big picure" of the project.
+(Most of the class members will have already heard about the project during your System Design presentation.)
+
+- Who is the client.
+- What is the purpose of the site.
+
 ## Demonstration of your web site - 5 minutes
 
 Suggested points:
@@ -42,7 +50,7 @@ Describe what has been going well, what hasn't gone well, and  what you would do
 - Project management.
 - Writing the code.
 
-## Evaluation of the finished product - 7 minutes
+## Evaluation of the finished product - 5 minutes
 
 1. Assessment of the completeness of your application. 
 
@@ -51,9 +59,9 @@ Describe what has been going well, what hasn't gone well, and  what you would do
 
 2. Assessment of the implementation.
 
-   - Will the code be easy to maintain?
+   - Will the code be easy to maintain? (Will it be easy to fix bugs and add new features).
 
-     (Easy to fix bugs and add new features).
+     - Explain why it will and/or will not be easy to maintain.
 
    - To what degree did you follow "best practices" in coding? 
 

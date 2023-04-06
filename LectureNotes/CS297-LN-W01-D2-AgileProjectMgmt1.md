@@ -155,5 +155,3 @@ This report will be submitted at the end of the sprint.
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
-
-------

@@ -2,42 +2,24 @@
 
 # Final Presentation Guide
 
-Your presentation should be 15 to 20 minutes long. The times listed in the headings below are suggestions.
+Your presentation should be no more than 15 minutes long. The times listed in the headings below are suggestions.
 
 ## Demonstration of your web site - 5 minutes
 
 Suggested points:
 
-- Show just the basic, core parts of the site.
+- Show just the basic, core parts of the site and any parts that are new since the alpha presentation.
 - Show any features you are especially proud of.
 - Show any features that were especially hard to implement.
 
-## Evaluation of the Design - 2 minutes
+## Discussion of the Final Sprint
 
-Assess the design you did in CS246 (last term).
+- Were you able to focus on just bug fixes and very minor changes?
+- Did you learn anythiing in your last sprint that you wish you had known in your first sprint?
+- How much was left in the product backlog? Was it all optional user stories?
+- Is your client satisfied with the site you built for them?
 
-Suggested points:
-
-- Was the design complete enough?
-
-- Were there shortcomings in the design?
-
-- What kinds of things did you change in the design?
-
-- What would you do differently next time you design an app?
-
-## Evaluation of the development process - 3 minutes
-
-Describe what went well, what didn't and what you would do differently in the future. 
-
-Suggested topics:
-
-- Communication with your client.
-- Team collaboration.
-- Project management.
-- Writing the code.
-
-## Evaluation of the finished product - 7 minutes
+## Evaluation of the finished product - 5 minutes
 
 1. Assessment of the completeness of your application. 
 
@@ -69,6 +51,12 @@ Suggested topics:
    - Are there known bugs?
    - Does it crash unexpectedly, or does it do strange things at random times?
    - Do you have run-time exception handling?
+
+5. Hosting
+
+   - Where is the site hosted?
+   - What do you like or dislike about the hosting service?
+   - Will the client be able to maintain the site on this host?
 
 
 
