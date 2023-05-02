@@ -175,20 +175,23 @@ This solved the problem. My tests now run and pass!
 
 ## Development Workflow
 
-My *development workflow* (not to be confused with the Actions *workflow* file.) When I have changes ready to merge into the main branch, I don't directly merge them to main. I do this:
+This is one possible *development workflow* (not to be confused with the Actions *workflow* file) for implementing *Continuous Integration*. 
+
+When you have code that you want to test with code from one or more team-mates, but you (or they) aren't ready to merge code into the main branch:
 
 1. 
-   Merge the *main* branch into my *test* branch.
+   Make a *test* branch, merge the *main* branch into it, and push it to GitHub.
 
-   This triggers the Actions CI workflow to execute. This is good. It will verify that the code merged from main passes. I now have a verified baseline for testing my new code.
+   This triggers the Actions CI workflow to execute. This is good. It will verify that the code merged from main passes. you now have a verified baseline for testing new code.
 
-2. Merge my new code branch into the test branch.
+2. Merge the new code from everyone's branch who wants to do integration testing into the test branch.
 
-   This triggers the CI workflow to run again to verify that my new code builds without errors and unit tests pass (or not) after merging with the code from main.
+   This triggers the CI workflow to run again to verify that my new code builds without errors and unit tests pass (or not).
 
-3. Merge the test branch into the main branch.
+When you have code that is ready for a PR and to be merged into main:
 
-   This triggers the CI workflow again to verify that all is well after merging to main.
+1. Do a *reverse merge* (merging the main into your new code branch). Build and test the code locally to verify everything is ok.
+2. Create a PR to get the code reviewed and merged into main. When the new code is merged into main, the CI workflow is triggered to run and verify that all is well.
 
 
 
@@ -216,4 +219,4 @@ Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Bui
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2022</time>, revised <time>2023</time> are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
