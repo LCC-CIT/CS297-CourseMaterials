@@ -201,6 +201,12 @@ When you have code that is ready for a PR and to be merged into main:
 
 
 
+## Example
+
+[CS 296N Book Reviews Web Site (2022 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews)
+
+
+
 ## Next Time
 
 In future sessions, we will add integration tests and deployment to our GitHub Actions workflow.
