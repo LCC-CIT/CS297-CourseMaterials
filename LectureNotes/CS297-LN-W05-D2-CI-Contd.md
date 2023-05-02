@@ -36,7 +36,7 @@ author: Brian Bird
 
 The script that defines what GitHub Actions will do will be a file written in YAML (YAML is a bit like JSON without curly braces).
 
-- Create a directory in your repository with this path:
+- Create a directory in your repository, on the main branch, with this path:
   `.github/workflows`
 - Create a workflow file by creating a text file with the extension `.yaml` and give it a name, like:
   `ci-workflow.yaml`
@@ -189,6 +189,12 @@ My *development workflow* (not to be confused with the Actions *workflow* file.)
 3. Merge the test branch into the main branch.
 
    This triggers the CI workflow again to verify that all is well after merging to main.
+
+
+
+## Example
+
+[CS 296N Book Reviews Web Site (2022 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews)
 
 
 
