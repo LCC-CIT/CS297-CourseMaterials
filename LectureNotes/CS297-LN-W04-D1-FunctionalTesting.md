@@ -18,11 +18,11 @@ author: Brian Bird
 | Sprint | Week | Focus                                              |      | Sprint | Week | Focus                        |
 | ------ | ---- | -------------------------------------------------- | ---- | ------ | ---- | ---------------------------- |
 | 1      | 1    | Design review<br />project mgmt.<br />Git workflow |      | 4      | 7    | DevOps                       |
-|        | 2    | First end of sprint meetings                       |      |        | 8    | <u>Beta release</u>          |
+|        | 2    | End of sprint meetings                             |      |        | 8    | <u>Beta release</u>          |
 | 2      | 3    |                                                    |      | 5      | 9    | Code freeze                  |
 |        | 4    | <mark>Functional testing</mark>                    |      |        | 10   | <u>Release to production</u> |
 | 3      | 5    | Continuous Integration                             |      |        | 11   | Final presentation           |
-|        | 6    | <u>Alpha release</u><br />Continuous Deployment    |      |        |      |                              |
+|        | 6    | Continuous Deployment<br /><u>Alpha release</u>    |      |        |      |                              |
 
 
 
@@ -32,7 +32,7 @@ author: Brian Bird
 
 ## Overview of Functional Testing
 
-Functional tests confirm that a software application or system  operates correctly. Functional testing focuses on testing the interface  of the application to ensure that all user stories for an application  have been correctly implemented.
+Functional tests confirm that a software application or system operates correctly. Functional testing focuses on <u>testing the user interface</u> of the application to ensure that all user stories for an application  have been correctly implemented.
 
 Functional testing is "Black box" (vs "White box" testing)
 
@@ -43,8 +43,8 @@ Functional testing is "Black box" (vs "White box" testing)
 
 Multiple sites (can all be on the same server)
 
-- Development testing site
-- Acceptance testing site
+- Development site
+- Staging (testing) site
 - Production site
 
 ## Writing a Test Procedure
@@ -52,6 +52,16 @@ Multiple sites (can all be on the same server)
 Here is an example taken from Hamilton (2022) :
 
 ![](FormatForStandardTestCases.png)
+
+## Keep Updating the Procedure
+
+You will use this test procedure to veryify your site is working correctly before each release:
+
+- Alpha
+- Beta
+- Production
+
+Make sure the test procedure is up to date with any changes or new features you've added since the last revision of the procedure.
 
 ## Bug Tracking
 
@@ -85,7 +95,7 @@ Ask your testers to enter the following information:
 
 ##  References
 
- Ashley Dotterweich, [What is Functional Testing?](https://dzone.com/articles/what-is-functional-testing), DZone article, 2016.
+Ashley Dotterweich, [What is Functional Testing?](https://dzone.com/articles/what-is-functional-testing), DZone article, 2016.
 Functional testing focuses on  testing an application through the user interface to ensure that all  user stories have been correctly implemented.
 
 Thomas Hamilton, [How to Write Test Cases: Sample Template with Examples](https://www.guru99.com/test-case.html), Guru99, 2019, revised 2022.
@@ -99,4 +109,4 @@ What is the major difference between testing an application or a software system
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2023</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 

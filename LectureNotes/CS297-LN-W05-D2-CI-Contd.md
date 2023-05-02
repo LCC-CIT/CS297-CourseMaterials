@@ -36,7 +36,7 @@ author: Brian Bird
 
 The script that defines what GitHub Actions will do will be a file written in YAML (YAML is a bit like JSON without curly braces).
 
-- Create a directory in your repository with this path:
+- Create a directory in your repository, on the main branch, with this path:
   `.github/workflows`
 - Create a workflow file by creating a text file with the extension `.yaml` and give it a name, like:
   `ci-workflow.yaml`
@@ -192,6 +192,12 @@ When you have code that is ready for a PR and to be merged into main:
 
 1. Do a *reverse merge* (merging the main into your new code branch). Build and test the code locally to verify everything is ok.
 2. Create a PR to get the code reviewed and merged into main. When the new code is merged into main, the CI workflow is triggered to run and verify that all is well.
+
+
+
+## Example
+
+[CS 296N Book Reviews Web Site (2022 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews)
 
 
 
