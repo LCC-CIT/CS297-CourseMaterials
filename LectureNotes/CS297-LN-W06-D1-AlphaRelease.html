@@ -1,17 +1,23 @@
 <!doctype html>
-<html>
+<html style='font-size:20px !important'>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; --title-bar-height:20px; }
-.mac-os-11 { --title-bar-height:28px; }
+<meta name="title" content="Alpha Release">
+<meta name="description" content="Explain the purpose of an alpha release and how to do alpha testing.">
+<meta name="keywords" content="alpha release, bug reports, functional testing, UX testing">
+<meta name="material" content="Lecture Notes">
+<meta name="author" content="Brian Bird">
+<meta name="generator" content="Typora">
+<link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
-body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+h1, h2, h3, h4, h5 { white-space: pre-wrap; }
+body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit; background-repeat: inherit; }
 iframe { margin: auto; }
 a.url { word-break: break-all; }
 a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
-#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
 #write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
@@ -22,13 +28,11 @@ body.typora-export { padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 500px) {
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
-  .CodeMirror-sizer { margin-left: 0px !important; }
-  .CodeMirror-gutters { display: none !important; }
 }
 #write li > figure:last-child { margin-bottom: 0.5rem; }
 #write ol, #write ul { position: relative; }
 img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
-button, input, select, textarea { color: inherit; font: inherit; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
@@ -51,12 +55,12 @@ sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inh
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
 figure > table { margin: 0px; }
-tr { break-inside: avoid; break-after: auto; }
+thead, tr { break-inside: avoid; break-after: auto; }
 thead { display: table-header-group; }
 table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
 table.md-table td { min-width: 32px; }
-.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
-.CodeMirror-linenumber { user-select: none; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { -webkit-user-select: none; }
 .CodeMirror { text-align: left; }
 .CodeMirror-placeholder { opacity: 0.3; }
 .CodeMirror pre { padding: 0px 4px; }
@@ -66,16 +70,17 @@ div.hr:focus { cursor: none; }
 #write.fences-no-line-wrapping pre { white-space: pre; }
 #write pre.ty-contain-cm { white-space: normal; }
 .CodeMirror-gutters { margin-right: 4px; }
-.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit; background-repeat: inherit; }
 .md-fences-adv-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
 #write .md-fences.mock-cm { white-space: pre-wrap; }
 .md-fences.md-fences-with-lineno { padding-left: 0px; }
 #write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
 .md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
 .CodeMirror-line, twitterwidget { break-inside: avoid; }
+svg { break-inside: avoid; }
 .footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
 .footnotes + .footnotes { margin-top: 0px; }
-.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; }
 li div { padding-top: 0px; }
 blockquote { margin: 1rem 0px; }
 li .mathjax-block, li p { margin: 0.5rem 0px; }
@@ -87,16 +92,18 @@ blockquote > :first-child, li > :first-child { margin-top: 0px; }
 #write .footnote-line { white-space: pre-wrap; }
 @media print {
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
-  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
-  .typora-export * { -webkit-print-color-adjust: exact; }
+  #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
+  .typora-export * { print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
+  #write > p:nth-child(1) { margin-top: 0px; }
   .typora-export-show-outline .typora-export-sidebar { display: none; }
+  figure { overflow-x: visible; }
 }
 .footnote-line { margin-top: 0.714em; font-size: 0.7em; }
 a img, img a { cursor: pointer; }
-pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; }
 p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
 #write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
 p > .md-image:only-child { display: inline-block; width: 100%; }
@@ -130,22 +137,23 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 }
 a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
 .footnote-line a:not(.reversefootnote) { color: inherit; }
+.reversefootnote { font-family: ui-monospace, sans-serif; }
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
-code { text-align: left; vertical-align: initial; }
-a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
 .os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
 .md-diagram-panel > svg { max-width: 100%; }
 [lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
 [lang="mermaid"] .node text { font-size: 1rem; }
-table tr th { border-bottom: 0px; }
+table tr th { border-bottom-width: 0px; }
 video { max-width: 100%; display: block; margin: 0px auto; }
 iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
-mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
@@ -157,10 +165,10 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
 .md-fences.md-fences-math { font-size: 1em; }
 .md-fences-advanced:not(.md-focus) { padding: 0px; white-space: nowrap; border: 0px; }
-.md-fences-advanced:not(.md-focus) { background: inherit; }
+.md-fences-advanced:not(.md-focus) { background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; background-position: inherit; background-repeat: inherit; }
 .typora-export-show-outline .typora-export-content { max-width: 1440px; margin: auto; display: flex; flex-direction: row; }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
-.typora-export-show-outline #write { --webkit-flex:2; flex: 2 1 0%; }
+.typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
 @media screen and (max-width: 1024px) {
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
@@ -168,10 +176,10 @@ mark .md-meta { color: rgb(0, 0, 0); }
 @media screen and (max-width: 800px) {
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
-.outline-expander { width: 1rem; height: 1.42857rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
+.outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
 .outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
 .outline-expander:hover::before { content: ""; }
@@ -184,14 +192,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-label { cursor: pointer; display: table-cell; vertical-align: middle; text-decoration: none; color: inherit; }
 .outline-label:hover { text-decoration: underline; }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
-.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left: 28px solid transparent; border-right: 28px solid transparent; }
+.outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
 .outline-item-open > .outline-item > .outline-expander::before { content: ""; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
-.typora-export .outline-item:hover { margin-right: -8px; border-right: 8px solid transparent; }
+.typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
 .typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
 .typora-export-collapse-outline .outline-children { display: none; }
@@ -199,6 +207,7 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
 .typora-export-show-outline .outline-item-active > .outline-item .outline-label { font-weight: 700; }
 .md-inline-math-container mjx-container { zoom: 0.95; }
+mjx-container { break-inside: avoid; }
 
 
 :root {
@@ -457,11 +466,8 @@ code {
     html {
         font-size: 13px;
     }
-    table,
     pre {
         page-break-inside: avoid;
-    }
-    pre {
         word-wrap: break-word;
     }
 }
@@ -589,14 +595,14 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 
-
+ @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
 </style><title>Alpha Release</title>
 </head>
-<body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1>Alpha Release</h1><p><strong><span>CS297 Programming Capstone</span></strong></p><p>&nbsp;</p><h2>Schedule</h2><figure><table><thead><tr><th><span>Sprint</span></th><th><span>Week</span></th><th><span>Focus</span></th><th>&nbsp;</th><th><span>Sprint</span></th><th><span>Week</span></th><th><span>Focus</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>1</span></td><td><span>Design review</span><br><span>project mgmt.</span><br><span>Git workflow</span></td><td>&nbsp;</td><td><span>4</span></td><td><span>7</span></td><td><span>DevOps</span></td></tr><tr><td>&nbsp;</td><td><span>2</span></td><td><span>First end of sprint meetings</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>8</span></td><td><u><span>Beta release</span></u></td></tr><tr><td><span>2</span></td><td><span>3</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>5</span></td><td><span>9</span></td><td><span>Code freeze</span></td></tr><tr><td>&nbsp;</td><td><span>4</span></td><td><span>Functional testing</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>10</span></td><td><u><span>Release to production</span></u></td></tr><tr><td><span>3</span></td><td><span>5</span></td><td><span>Continuous Integration</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>11</span></td><td><span>Final presentation</span></td></tr><tr><td>&nbsp;</td><td><span>6</span></td><td><mark><u><span>Alpha release</span></u></mark><br><span>Continuous Deployment</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><h2>Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n593"><a class="md-toc-inner" href="#alpha-release">Alpha Release</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n595"><a class="md-toc-inner" href="#what-is-an-alpha-release">What is an Alpha Release?</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n648"><a class="md-toc-inner" href="#references">References</a></span></p></div><h1 id='alpha-release'><span>Alpha Release</span></h1><p><span>This week you will release your project for alpha testing. Today we will discuss all that is involved in an alpha release.</span></p><h2 id='what-is-an-alpha-release'><span>What is an Alpha Release?</span></h2><p><strong><span>Purpose of an alpha release</span></strong></p><ul><li><span>Get early feedback on usability from potential end-users and other stake holders.</span></li><li><span>Get bug reports from potential end users as opposed to just testers.</span>
-<span>In this context, we mean that we won&#39;t be using just software or game dev type people for testing. We&#39;ll be releasing the product to people who are typical of those who we expect to use the product.</span></li><li><span>Motivation to get your project to a usable state.</span></li></ul><p><strong><span>Characteristics of an alpha release</span></strong></p><ul><li><span>A minimal set of features implemented</span>
-<span> Not all the features will be done, but a minimal set of the most important features will be at least partially working. These features  should be working well enough that users can actually use the application or game in some basic way.</span></li><li><span>Still has bugs</span>
-<span>There will be both known and unknown bugs. Give the testers a list of the known bugs.</span></li><li><span>You should start using some form of bug tracking at this point </span>
-<span>You can enter bugs in your agile project management system and identify them as &quot;issues&quot; or &quot;bugs&quot; to distinguish them from </span><em><span>user stories</span></em><span>.</span></li></ul><p><strong><span>Real life story</span></strong></p><p><span>At Intel Architecture Labs:</span></p><ul><li><span>Contrast the testing done by the QA department to alpha testing done by &quot;real world&quot; users.</span></li><li><span>E-mail auto-sorting feature that passed QA but failed alpha testing.</span></li></ul><p><span>      </span></p><h2 id='references'><span>References</span></h2><p><span>Luke Frieler, </span><a href='https://www.centercode.com/blog/2011/01/alpha-vs-beta-testing'><span>Alpha vs. Beta Testing</span></a><span>, Centercode blog, 2019.</span></p><p>&nbsp;</p><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Capstone Class Lecture Notes written by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2018, revised </span><time><span>2022</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>. </span></p></div></div>
-</body>
+<body class='typora-export'><div class='typora-export-content'>
+<div id='write'  class=''><h1>Alpha Release</h1><p><strong><span>CS297 Programming Capstone</span></strong></p><p>&nbsp;</p><h2>Schedule</h2><figure class='table-figure'><table><thead><tr><th><span>Sprint</span></th><th><span>Week</span></th><th><span>Focus</span></th><th>&nbsp;</th><th><span>Sprint</span></th><th><span>Week</span></th><th><span>Focus</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>1</span></td><td><span>Design review</span><br /><span>project mgmt.</span><br /><span>Git workflow</span></td><td>&nbsp;</td><td><span>4</span></td><td><span>7</span></td><td><span>DevOps</span></td></tr><tr><td>&nbsp;</td><td><span>2</span></td><td><span>First end of sprint meetings</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>8</span></td><td><u><span>Beta release</span></u></td></tr><tr><td><span>2</span></td><td><span>3</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>5</span></td><td><span>9</span></td><td><span>Code freeze</span></td></tr><tr><td>&nbsp;</td><td><span>4</span></td><td><span>Functional testing</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>10</span></td><td><u><span>Release to production</span></u></td></tr><tr><td><span>3</span></td><td><span>5</span></td><td><span>Continuous Integration</span></td><td>&nbsp;</td><td>&nbsp;</td><td><span>11</span></td><td><span>Final presentation</span></td></tr><tr><td>&nbsp;</td><td><span>6</span></td><td><mark><u><span>Alpha release</span></u></mark><br /><span>Continuous Deployment</span></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table></figure><p>&nbsp;</p><h2>Contents</h2><div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list"><span role="listitem" class="md-toc-item md-toc-h1" data-ref="n66"><a class="md-toc-inner" style="" href="#alpha-release">Alpha Release</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n68"><a class="md-toc-inner" style="" href="#what-is-an-alpha-release">What is an Alpha Release?</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n69"><a class="md-toc-inner" style="" href="#purpose-of-an-alpha-release">Purpose of an alpha release</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n77"><a class="md-toc-inner" style="" href="#characteristics-of-an-alpha-release">Characteristics of an alpha release</a></span><span role="listitem" class="md-toc-item md-toc-h3" data-ref="n97"><a class="md-toc-inner" style="" href="#requirements-for-the-capstone-alpha-release">Requirements for the Capstone alpha release</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n85"><a class="md-toc-inner" style="" href="#real-life-story">Real Life Story</a></span><span role="listitem" class="md-toc-item md-toc-h2" data-ref="n93"><a class="md-toc-inner" style="" href="#references">References</a></span></p></div><h1 id='alpha-release'><span>Alpha Release</span></h1><p><span>This week you will release your project for alpha testing. Today we will discuss all that is involved in an alpha release.</span></p><h2 id='what-is-an-alpha-release'><span>What is an Alpha Release?</span></h2><h3 id='purpose-of-an-alpha-release'><span>Purpose of an alpha release</span></h3><ul><li><p><span>Get early feedback on usability from potential end-users and other stake holders.</span></p></li><li><p><span>Get bug reports from potential end users as opposed to just testers.</span>
+<span>In this context, we mean that we won&#39;t be using just software or game dev type people for testing. We&#39;ll be releasing the product to people who are typical of those who we expect to use the product.</span></p></li><li><p><span>Motivation to get your project to a usable state.</span></p></li></ul><h3 id='characteristics-of-an-alpha-release'><span>Characteristics of an alpha release</span></h3><ul><li><p><span>A minimal set of features implemented.</span>
+<span>Not all the features will be done, but a minimal set of the most important features will be at least partially working. These features  should be working well enough that users can actually use the application or game in some basic way.</span></p></li><li><p><span>Still has bugs.</span>
+<span>There will be both known and unknown bugs. Give the testers a list of the known bugs.</span></p></li><li><p><span>You should start using some form of bug tracking at this point.</span>
+<span>You can enter bugs in your agile project management system and identify them as &quot;issues&quot; or &quot;bugs&quot; to distinguish them from </span><em><span>user stories</span></em><span>.</span></p></li><li><p><span>You should have a code freeze one or more days before the end of the sprint so you have time to fix critical bugs (not all bugs) before functional testing. There should be no code changes or bug fixes during testing.</span></p></li></ul><h3 id='requirements-for-the-capstone-alpha-release'><span>Requirements for the Capstone alpha release</span></h3><ul><li><p><span>The web site/app will be running on a staging or test server.</span></p></li><li><p><span>Your team will have a functional test plan ready.</span></p></li><li><p><span>Tetsters who are not part of the development team will do the testing.</span></p></li><li><p><span>You will also get feedback on user experience from the testers and your client.</span></p></li><li><p><span>Your team will give a presentation on your alpha release next week.</span></p></li></ul><p>&nbsp;</p><h2 id='real-life-story'><span>Real Life Story</span></h2><p><span>At Intel Architecture Labs:</span></p><ul><li><p><span>Contrast the testing done by the QA department to alpha testing done by &quot;real world&quot; users.</span></p></li><li><p><span>E-mail auto-sorting feature that passed QA but failed alpha testing.</span></p></li></ul><p><span>      </span></p><h2 id='references'><span>References</span></h2><p><span>Luke Frieler, </span><a href='https://www.centercode.com/blog/2011/01/alpha-vs-beta-testing'><span>Alpha vs. Beta Testing</span></a><span>, Centercode blog, 2019.</span></p><p>&nbsp;</p><p><a href='http://creativecommons.org/licenses/by/4.0/'><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Capstone Class Lecture Notes written by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, 2018, revised </span><time><span>2022</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by/4.0/'><span>Creative Commons Attribution 4.0 International License</span></a><span>. </span></p></div></div>
+<base target="_blank"></body>
 </html>

@@ -36,23 +36,34 @@ This week you will release your project for alpha testing. Today we will discuss
 
 ## What is an Alpha Release?
 
-**Purpose of an alpha release**
+### Purpose of an alpha release
 
 - Get early feedback on usability from potential end-users and other stake holders.
 - Get bug reports from potential end users as opposed to just testers.
   In this context, we mean that we won't be using just software or game dev type people for testing. We'll be releasing the product to people who are typical of those who we expect to use the product.
 - Motivation to get your project to a usable state.
 
-**Characteristics of an alpha release**
+### Characteristics of an alpha release
 
-- A minimal set of features implemented
+- A minimal set of features implemented.
    Not all the features will be done, but a minimal set of the most important features will be at least partially working. These features  should be working well enough that users can actually use the application or game in some basic way.
-- Still has bugs
+- Still has bugs.
   There will be both known and unknown bugs. Give the testers a list of the known bugs.
-- You should start using some form of bug tracking at this point 
+- You should start using some form of bug tracking at this point.
   You can enter bugs in your agile project management system and identify them as "issues" or "bugs" to distinguish them from *user stories*.
+- You should have a code freeze one or more days before the end of the sprint so you have time to fix critical bugs (not all bugs) before functional testing. There should be no code changes or bug fixes during testing.
 
-**Real life story**
+### Requirements for the Capstone alpha release
+
+- The web site/app will be running on a staging or test server.
+- Your team will have a functional test plan ready.
+- Tetsters who are not part of the development team will do the testing.
+- You will also get feedback on user experience from the testers and your client.
+- Your team will give a presentation on your alpha release next week.
+
+
+
+## Real Life Story
 
 At Intel Architecture Labs:
 
