@@ -88,8 +88,18 @@ Describe what has been going well, what hasn't gone well, and  what you would do
    - Does it crash unexpectedly, or does it do strange things at random times?
    - Do you have run-time exception handling?
 
+## Documentation
+
+As a team, you will post the following documents in the Alpha Release forum:
+
+- Updated design documents:
+  - UML class diagram of your domain model
+  - Wireframes of yet-to-be-made UI
+- A link to  your Jira project (this is for your instructor, you don't need to invite the whole class)
+- A link to your GitHub repository (this doesn't need to be public, just your instructor needs to access it.)
+
 
 
 ---
 
-Written by Brian Bird, spring <time>2022</time>
+Written by Brian Bird, spring 2022, revised <time>2023</time>
