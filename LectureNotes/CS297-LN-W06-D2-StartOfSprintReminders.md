@@ -34,11 +34,12 @@ author: Brian Bird
 
 Keep them short and to the point.
 
-- Sprint plannnig should just be about primoritizing, and moving backlog into the current sprint.
+- Sprint plannnig should just be about prioritizing, and moving backlog into the current sprint.
+  - Have your agile management software (like Jira) open with everyone looking at the backlog for the current sprint.
   - Bugs and non-user-story tasks may also need to be added.
   - You may also need to:
     - Add any missing user stories.
-    - Do some new design.
+    - Add a task to do some new design on a user story.
 - Daily standups should just be for each team member to answer the three stock questions.
   - Not of problem solving.
   - Not for giving advice or opinions.
@@ -50,10 +51,20 @@ Keep them short and to the point.
 
 ## Pull Requests
 
-- Should be for just one user story; unless there are two stories that are interdependnt and can't be implmented separately.
-  - Include the user story ID number
-- Should reference a functional and/or integration or unit test.
-- Can be for a bug fix.
+- Creating a PR
+  - Should be for one user story, unless:
+    - There are two stories that are interdependnt and can't be implmented separately.
+    - One or more child issues (tasks) are complete and testable, evan thought the story isn't complete.
+  - Include the user story or issue ID.
+  - Should reference a functional and/or integration or unit test.
+  - Can be for a bug fix or non-user-story task.
+- Reviewing a PR
+  - Actually reveiw the code and check for best practices.
+  - Test the feature and evaluate the test (either written or automated) to ensure that it fully tests the feature.
+  - If there are issues, give feedback in the PR comments and be specific about what you think needs to be revised.
+- Closing a PR
+  - It must either pass review, or be determined to be unneeded.
+  - The team can establish a team practice as to whether it is the reviewer or the author of the PR who merges the PR into main.
 
 
 
@@ -67,6 +78,12 @@ Keep them short and to the point.
 
 
 
+## References
+
+[Pull Request Help Docs](https://docs.github.com/en/pull-requests)&mdash;GitHub
+
+[Scrum Sprints: Everything you need to know](https://www.atlassian.com/agile/scrum/sprints)&mdash;Atlassian
 
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2018, revised <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), <time>2023</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
