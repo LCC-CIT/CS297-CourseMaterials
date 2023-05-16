@@ -2,14 +2,6 @@
 
 **CS297 Programming Capstone**
 
-
-
-<h2>Course Schedule</h2>
-
-<h2>Contents</h2>
-
-
-
 <h2>Course Schedule</h2>
 
 | Sprint | Week, Topic                               |      | Sprint | Week, Topic                     |
@@ -21,11 +13,11 @@
 | *3*    | 5. Continuous delivery                    |      |        | 11. Final presentations         |
 |        | 6. ***Alpha release***                    |      |        |                                 |
 
-
+<h2>Contents</h2>
 
 [TOC]
 
-# Agile Scrum Review
+# Agile Scrum Review: Beginning a Sprint
 
 This week we will review aspects of the Scrum process that you will need to know as you start your first sprint, this includes the *sprint planning* meeting and the *daily stand-up* meetings.
 
@@ -63,7 +55,7 @@ For the web dev teams, this is your client.
 
 ### Other Stakeholders
 
-- Management
+- Management (in this class, your instructor)
 - End-users
 - Investors
 
@@ -72,6 +64,8 @@ For the web dev teams, this is your client.
 ## Scrum Meetings
 
 During each sprint you will hold these meetings (aka "ceremonies").
+
+It's best to do this with everyone looking at the backlog and sprints on your agile management software (such as Jira).
 
 ### Sprint planning meeting
 
@@ -95,17 +89,6 @@ During each sprint you will hold these meetings (aka "ceremonies").
     - Low-level design will be done during the sprint.
     - Consult with the product owner if there are questions about details of the low-level design.
 
-#### Sprint Planning Meeting report  
-For this class (not the real world), you will report these items:
-
-- Time and date of the meeting.
-- List of real-time participants.
-- Name of the scrum master.
-- Time & date planned for product review with client.
-- Any blocking issues that might need to be resolved.
-
-This report will be submitted at the end of the sprint.
-
 
 
 ### Daily stand-ups
@@ -116,32 +99,30 @@ This report will be submitted at the end of the sprint.
     15-minutes
     Stand-up.
 
-  - Not for problem solving.
-
+  - Not for problem solving or giving advice or opinions.
+    (Problem solving can be done one-on-one outide of a team meeting.)
+  
   - These are not status reports for the ScrumMaster
-    or product owner. 
-
-    They are commitments in front of peers.
-
+    or product owner. They are commitments in front of peers.
+  
   - The "whole world" is invited, but...
-
+  
     - Only team members, ScrumMaster and the product owner (if present), can talk.
     - Helps avoid other unnecessary meetings
-
+  
 - Everyone answers 3 questions:
 
   - What did you do yesterday?
   - What will you do today?
   - Is anything in your way?
+  
+  
 
-#### Daily Stand-up Meeting Report
+## Related Lecture Notes
 
-For this class (not the real world), you will make a report that lists these items for each meeting:
+[Agile Scrum Review: Finishing a Sprint](CS297-LN-W02-D2-AgileProjectMgmt2.html )
 
-- Time and date of the meeting.
-- List of real-time participants.
-
-This report will be submitted at the end of the sprint.
+[Scrum Meeting Report Guide](../CS297_MeetingReportGuide.html)
 
 
 
