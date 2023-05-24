@@ -93,30 +93,29 @@ It's best to do this with everyone looking at the backlog and sprints on your ag
 
 ### Daily stand-ups
 
-- Parameters:
-
-  - Daily
-    15-minutes
-    Stand-up.
-
-  - Not for problem solving or giving advice or opinions.
-    (Problem solving can be done one-on-one outide of a team meeting.)
-  
-  - These are not status reports for the ScrumMaster
-    or product owner. They are commitments in front of peers.
-  
-  - The "whole world" is invited, but...
-  
-    - Only team members, ScrumMaster and the product owner (if present), can talk.
-    - Helps avoid other unnecessary meetings
-  
+- Review the Jira sprint backlog.
+  - Update the board as each person describes thier work.
+  - The scrum master is responsible for esuring the board is up to date.
 - Everyone answers 3 questions:
-
   - What did you do yesterday?
   - What will you do today?
   - Is anything in your way?
-  
-  
+
+- Parameters:
+  - Daily
+    15-minutes
+    Stand-up
+
+  - Not for problem solving or giving advice or opinions.
+    (Problem solving can be done one-on-one outide of a team meeting.)
+
+  - These are not status reports for the ScrumMaster
+    or product owner. They are commitments in front of peers.
+
+  - The "whole world" is invited, but...
+
+    - Only team members, ScrumMaster and the product owner (if present), can talk.
+    - Helps avoid other unnecessary meetings.
 
 ## Related Lecture Notes
 
