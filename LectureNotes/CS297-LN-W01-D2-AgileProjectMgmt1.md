@@ -2,14 +2,6 @@
 
 **CS297 Programming Capstone**
 
-
-
-<h2>Course Schedule</h2>
-
-<h2>Contents</h2>
-
-
-
 <h2>Course Schedule</h2>
 
 | Sprint | Week, Topic                               |      | Sprint | Week, Topic                     |
@@ -21,7 +13,7 @@
 | *3*    | 5. Continuous delivery                    |      |        | 11. Final presentations         |
 |        | 6. ***Alpha release***                    |      |        |                                 |
 
-
+<h2>Contents</h2>
 
 [TOC]
 
@@ -44,7 +36,7 @@ For the web dev teams, this is your client.
 - Adjust features and priority every iteration, as needed.
 - Accept or reject work results.
 
-### ScrumMaster
+### Scrum Master
 
 - Represents management (or in the case of this class, your instructor) to the project.
 - Responsible for enacting Scrum values and practices.
@@ -72,6 +64,8 @@ For the web dev teams, this is your client.
 ## Scrum Meetings
 
 During each sprint you will hold these meetings (aka "ceremonies").
+
+You will report on these meetings at the end of each sprint.
 
 ### Sprint planning meeting
 
@@ -103,8 +97,6 @@ For this class (not the real world), you will report these items:
 - Name of the scrum master.
 - Time & date planned for product review with client.
 - Any blocking issues that might need to be resolved.
-
-This report will be submitted at the end of the sprint.
 
 
 
@@ -141,9 +133,11 @@ For this class (not the real world), you will make a report that lists these ite
 - Time and date of the meeting.
 - List of real-time participants.
 
-This report will be submitted at the end of the sprint.
 
 
+## End of Sprint Meetings
+
+[Next week's notes](CS297-LN-W02-D2-AgileProjectMgmt2.html) cover the end of sprint meetings.
 
 ## References
 
