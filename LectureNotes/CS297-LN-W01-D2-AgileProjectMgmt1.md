@@ -17,7 +17,7 @@
 
 [TOC]
 
-# Agile Scrum Review
+# Agile Scrum Review: Beginning a Sprint
 
 This week we will review aspects of the Scrum process that you will need to know as you start your first sprint, this includes the *sprint planning* meeting and the *daily stand-up* meetings.
 
@@ -36,7 +36,7 @@ For the web dev teams, this is your client.
 - Adjust features and priority every iteration, as needed.
 - Accept or reject work results.
 
-### Scrum Master
+### ScrumMaster
 
 - Represents management (or in the case of this class, your instructor) to the project.
 - Responsible for enacting Scrum values and practices.
@@ -55,7 +55,7 @@ For the web dev teams, this is your client.
 
 ### Other Stakeholders
 
-- Management
+- Management (in this class, your instructor)
 - End-users
 - Investors
 
@@ -65,7 +65,7 @@ For the web dev teams, this is your client.
 
 During each sprint you will hold these meetings (aka "ceremonies").
 
-You will report on these meetings at the end of each sprint.
+It's best to do this with everyone looking at the backlog and sprints on your agile management software (such as Jira).
 
 ### Sprint planning meeting
 
@@ -89,55 +89,41 @@ You will report on these meetings at the end of each sprint.
     - Low-level design will be done during the sprint.
     - Consult with the product owner if there are questions about details of the low-level design.
 
-#### Sprint Planning Meeting report  
-For this class (not the real world), you will report these items:
-
-- Time and date of the meeting.
-- List of real-time participants.
-- Name of the scrum master.
-- Time & date planned for product review with client.
-- Any blocking issues that might need to be resolved.
-
 
 
 ### Daily stand-ups
 
-- Parameters:
-
-  - Daily
-    15-minutes
-    Stand-up.
-
-  - Not for problem solving.
-
-  - These are not status reports for the ScrumMaster
-    or product owner. 
-
-    They are commitments in front of peers.
-
-  - The "whole world" is invited, but...
-
-    - Only team members, ScrumMaster and the product owner (if present), can talk.
-    - Helps avoid other unnecessary meetings
-
+- Review the Jira sprint backlog.
+  - Update the board as each person describes thier work.
+  - The scrum master is responsible for esuring the board is up to date.
 - Everyone answers 3 questions:
-
   - What did you do yesterday?
   - What will you do today?
   - Is anything in your way?
 
-#### Daily Stand-up Meeting Report
+- Parameters:
+  - Daily
+    15-minutes
+    Stand-up
 
-For this class (not the real world), you will make a report that lists these items for each meeting:
+  - Not for problem solving or giving advice or opinions.
+    (Problem solving can be done one-on-one outide of a team meeting.)
 
-- Time and date of the meeting.
-- List of real-time participants.
+  - These are not status reports for the ScrumMaster
+    or product owner. They are commitments in front of peers.
+
+  - The "whole world" is invited, but...
+
+    - Only team members, ScrumMaster and the product owner (if present), can talk.
+    - Helps avoid other unnecessary meetings.
+
+## Related Lecture Notes
+
+[Agile Scrum Review: Finishing a Sprint](CS297-LN-W02-D2-AgileProjectMgmt2.html )
+
+[Scrum Meeting Report Guide](../CS297_MeetingReportGuide.html)
 
 
-
-## End of Sprint Meetings
-
-[Next week's notes](CS297-LN-W02-D2-AgileProjectMgmt2.html) cover the end of sprint meetings.
 
 ## References
 

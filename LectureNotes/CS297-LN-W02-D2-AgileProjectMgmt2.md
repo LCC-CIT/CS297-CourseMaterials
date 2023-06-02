@@ -19,17 +19,11 @@
 
 [TOC]
 
-# Agile Scrum Review
-
-
-
-
+# Agile Scrum Review: Finishing a Sprint
 
 ## Scrum Meetings
 
 During each sprint you will hold these meetings (aka "ceremonies").
-
-
 
 ### Sprint Review Meeting
 
@@ -65,15 +59,28 @@ This report will be submitted at the end of the sprint.
 Periodically take a look at what is and is not working.
 
 - Typically 15–30 minutes.
+
 - Done after every sprint.
+
 - Whole team participates.
   - Scrum Master
   - Team
   - Possibly product owner, customers and others
+  
 - The team discussion focuses on what to:
   - Start doing
+  
   - Stop doing
+  
   - Continue doing
+  
+    
+
+## Related Lecture Notes
+
+[Agile Scrum Review: Starting a Sprint](lectureNotes/CS297-LN-W01-D2-AgileProjectMgmt1.html)
+
+[Scrum Meeting Report Guide](CS297_MeetingReportGuide.html)
 
 
 

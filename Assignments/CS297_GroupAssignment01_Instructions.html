@@ -1,11 +1,11 @@
 <!doctype html>
-<html style='font-size:20px !important'>
+<html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<meta name="title" content="Alpha Presentation Guide">
-<meta name="description" content="Requirements and suggestions for the team project presentation after the alpha release.">
-<meta name="keywords" content="Alpha release, presentation">
-<meta name="material" content="Presentation Guide">
+<meta name="title" content="Group Assignment 1">
+<meta name="description" content="${description}">
+<meta name="keywords" content="${keywords}">
+<meta name="material" content="Lab Instructions">
 <meta name="author" content="Brian Bird">
 <meta name="generator" content="Typora">
 <link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
@@ -25,7 +25,7 @@ a:active, a:hover { outline: 0px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
 .typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
 .typora-export .task-list-item input { pointer-events: none; }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) { 
   body.typora-export { padding-left: 0px; padding-right: 0px; }
   #write { padding-left: 20px; padding-right: 20px; }
 }
@@ -50,7 +50,7 @@ h6 { font-size: 1rem; }
 .hidden { display: none; }
 .md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
 a { cursor: pointer; }
-sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
 sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
 #write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
 figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
@@ -90,10 +90,10 @@ blockquote > :last-child { margin-bottom: 0px; }
 blockquote > :first-child, li > :first-child { margin-top: 0px; }
 .footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
 #write .footnote-line { white-space: pre-wrap; }
-@media print {
+@media print { 
   body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
   #write { margin-top: 0px; border-color: transparent !important; padding-top: 0px !important; padding-bottom: 0px !important; }
-  .typora-export * { print-color-adjust: exact; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
   .typora-export #write { break-after: avoid; }
   .typora-export #write::after { height: 0px; }
   .is-mac table { break-inside: avoid; }
@@ -116,7 +116,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .task-list-item.md-task-list-item { padding-left: 0px; }
 .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
 .math { font-size: 1rem; }
-.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
 .md-toc-content { position: relative; margin-left: 0px; }
 .md-toc-content::after, .md-toc::after { display: none; }
 .md-toc-item { display: block; color: rgb(65, 131, 196); }
@@ -129,7 +129,7 @@ p > .md-image:only-child { display: inline-block; width: 100%; }
 .md-toc-h4 .md-toc-inner { margin-left: 6em; }
 .md-toc-h5 .md-toc-inner { margin-left: 8em; }
 .md-toc-h6 .md-toc-inner { margin-left: 10em; }
-@media screen and (max-width: 48em) {
+@media screen and (max-width: 48em) { 
   .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
   .md-toc-h4 .md-toc-inner { margin-left: 5em; }
   .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
@@ -141,7 +141,7 @@ a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; 
 .md-attr { display: none; }
 .md-fn-count::after { content: "."; }
 code, pre, samp, tt { font-family: var(--monospace); }
-kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
 .md-comment { color: rgb(162, 127, 3); opacity: 0.6; font-family: var(--monospace); }
 code { text-align: left; }
 a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; }
@@ -157,7 +157,7 @@ mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); }
 .md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
 .md-expand mark .md-meta { opacity: 0.3 !important; }
 mark .md-meta { color: rgb(0, 0, 0); }
-@media print {
+@media print { 
   .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
 }
 .md-diagram-panel .messageText { stroke: none !important; }
@@ -170,19 +170,19 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .typora-export-sidebar { width: 300px; font-size: 0.8rem; margin-top: 80px; margin-right: 18px; }
 .typora-export-show-outline #write { --webkit-flex: 2; flex: 2 1 0%; }
 .typora-export-sidebar .outline-content { position: fixed; top: 0px; max-height: 100%; overflow: hidden auto; padding-bottom: 30px; padding-top: 60px; width: 300px; }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) { 
   .typora-export-sidebar, .typora-export-sidebar .outline-content { width: 240px; }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) { 
   .typora-export-sidebar { display: none; }
 }
-.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; overflow-wrap: anywhere; }
+.outline-content li, .outline-content ul { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px; list-style: none; }
 .outline-content ul { margin-top: 0px; margin-bottom: 0px; }
 .outline-content strong { font-weight: 400; }
 .outline-expander { width: 1rem; height: 1.428571429rem; position: relative; display: table-cell; vertical-align: middle; cursor: pointer; padding-left: 4px; }
-.outline-expander::before { content: ""; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
+.outline-expander::before { content: ''; position: relative; font-family: Ionicons; display: inline-block; font-size: 8px; vertical-align: middle; }
 .outline-item { padding-top: 3px; padding-bottom: 3px; cursor: pointer; }
-.outline-expander:hover::before { content: ""; }
+.outline-expander:hover::before { content: ''; }
 .outline-h1 > .outline-item { padding-left: 0px; }
 .outline-h2 > .outline-item { padding-left: 1em; }
 .outline-h3 > .outline-item { padding-left: 2em; }
@@ -194,14 +194,14 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .outline-item:hover { border-color: rgb(245, 245, 245); background-color: var(--item-hover-bg-color); }
 .outline-item:hover { margin-left: -28px; margin-right: -28px; border-left-width: 28px; border-left-style: solid; border-left-color: transparent; border-right-width: 28px; border-right-style: solid; border-right-color: transparent; }
 .outline-item-single .outline-expander::before, .outline-item-single .outline-expander:hover::before { display: none; }
-.outline-item-open > .outline-item > .outline-expander::before { content: ""; }
+.outline-item-open > .outline-item > .outline-expander::before { content: ''; }
 .outline-children { display: none; }
 .info-panel-tab-wrapper { display: none; }
 .outline-item-open > .outline-children { display: block; }
 .typora-export .outline-item { padding-top: 1px; padding-bottom: 1px; }
 .typora-export .outline-item:hover { margin-right: -8px; border-right-width: 8px; border-right-style: solid; border-right-color: transparent; }
 .typora-export .outline-expander::before { content: "+"; font-family: inherit; top: -1px; }
-.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: "−"; }
+.typora-export .outline-expander:hover::before, .typora-export .outline-item-open > .outline-item > .outline-expander::before { content: '−'; }
 .typora-export-collapse-outline .outline-children { display: none; }
 .typora-export-collapse-outline .outline-item-open > .outline-children, .typora-export-no-collapse-outline .outline-children { display: block; }
 .typora-export-no-collapse-outline .outline-expander::before { content: "" !important; }
@@ -596,10 +596,9 @@ header, .context-menu, .megamenu-content, footer{
 
 
  @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}} .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} h1,h2,h3,h4,h5 {white-space:pre-line}
-</style><title>Alpha Presentation Guide</title>
+</style><title>Group Assignment 1</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
-<div id='write'  class=''><p><strong><span>CS297, Programming Capstone</span></strong></p><h1 id='alpha-release-presentation-guide'><span>Alpha Release Presentation Guide</span></h1><p><span>Your presentation should be 15 to 20 minutes long. The times listed in the headings below are suggestions.</span></p><h2 id='overview-of-the-project---2-minutes'><span>Overview of the Project - 2 minutes</span></h2><p><span>Refresh eveyone&#39;s memory of the &quot;big picure&quot; of the project.</span>
-<span>(Most of the class members will have already heard about the project during your System Design presentation.)</span></p><ul><li><p><span>Who is the client.</span></p></li><li><p><span>What is the purpose of the site.</span></p></li></ul><h2 id='demonstration-of-your-web-site---5-minutes'><span>Demonstration of your web site - 5 minutes</span></h2><p><span>Suggested points:</span></p><ul><li><p><span>Show everything you have working so far.</span></p></li><li><p><span>Highlight any features you are especially proud of.</span></p></li><li><p><span>Tell us about any features that were especially hard to implement.</span></p></li></ul><h2 id='evaluation-of-the-design---2-minutes'><span>Evaluation of the Design - 2 minutes</span></h2><p><span>Assess the design you did in CS246 (last term). Suggested points:</span></p><ul><li><p><span>Was the design complete enough?</span></p></li><li><p><span>Were there shortcomings in the design?</span></p></li><li><p><span>What parts of the design have you changed so far?</span></p></li><li><p><span>What would you do differently next time you design a web app?</span></p></li></ul><h2 id='evaluation-of-the-development-process---3-minutes'><span>Evaluation of the development process - 3 minutes</span></h2><p><span>Describe what has been going well, what hasn&#39;t gone well, and  what you would do differently in the future. Suggested topics:</span></p><ul><li><p><span>Communication with your client.</span></p></li><li><p><span>Team collaboration.</span></p></li><li><p><span>Project management.</span></p></li><li><p><span>Writing the code.</span></p></li></ul><h2 id='evaluation-of-the-finished-product---5-minutes'><span>Evaluation of the finished product - 5 minutes</span></h2><ol start='' ><li><p><span>Assessment of the completeness of your application. </span></p><ul><li><p><span>What percentage of the essential features are implemented so far?</span></p></li><li><p><span>How satisfied is your client?</span></p></li></ul></li><li><p><span>Assessment of the implementation.</span></p><ul><li><p><span>Will the code be easy to maintain? (Will it be easy to fix bugs and add new features).</span></p><ul><li><p><span>Explain why it will and/or will not be easy to maintain.</span></p></li></ul></li><li><p><span>To what degree did you follow &quot;best practices&quot; in coding? </span></p><p><span>(Separation of concerns, DRY code, no “dead” code, minimal dependencies, comments, descriptive names, etc.)</span></p></li><li><p><span>Do you have enough unit tests?</span></p></li></ul></li><li><p><span>Performance: will your site give good response times when loaded with the expected number of users?</span></p></li><li><p><span>Responsiveness: does your site work well for a variety of screen sizes? </span></p><p><span>(Phone, tablet, notebook, desktop.)</span></p></li><li><p><span>Results of UX testing.</span></p></li><li><p><span>Results of functional testing.</span></p></li><li><p><span>How bug-free is your code?</span></p><p><span>Possible points to address:</span></p><ul><li><p><span>Has it been thoroughly tested?</span></p></li><li><p><span>Are there known bugs?</span></p></li><li><p><span>Does it crash unexpectedly, or does it do strange things at random times?</span></p></li><li><p><span>Do you have run-time exception handling?</span></p></li></ul></li></ol><h2 id='documentation'><span>Documentation</span></h2><p><span>As a team, you will post the following documents in the Alpha Release forum:</span></p><ul><li><p><span>Updated design documents:</span></p><ul><li><p><span>UML class diagram of your domain model</span></p></li><li><p><span>Wireframes of yet-to-be-made UI</span></p></li></ul></li><li><p><span>A link to  your Jira project (this is for your instructor, you don&#39;t need to invite the whole class)</span></p></li><li><p><span>A link to your GitHub repository (this doesn&#39;t need to be public, just your instructor needs to access it.)</span></p></li></ul><p>&nbsp;</p><hr /><p><span>Written by Brian Bird, spring 2022, revised </span><time><span>2023</span></time></p><p>&nbsp;</p></div></div>
+<div id='write'  class=''><h1>Group Assignment 1 Instructions</h1><p><strong><span>CS 297, Software Development Capstone</span></strong></p><ol><li><p><span>Set up Git repository for your team&#39;s project on GitHub.</span></p><ul><li><p><span>Create a docs folder and add the following:</span></p><ul><li><p><span>A .gitignore file for Visual Studio</span></p></li><li><p><span>Updated design documents from the System Design class:</span></p><ul><li><p><span>Project proposal</span></p></li><li><p><span>UI wireframes</span></p></li><li><p><span>Domain model UML diagram</span></p></li></ul></li><li><p><span>Team collaboration contract.</span></p></li></ul></li></ul><ul><li><p><span> Paste a link to your repository into the online text for this assignment on Moodle.</span></p></li></ul></li><li><p><span>In your sprint planning meeting, revise your first sprint</span></p><p><span>(If your team didn&#39;t set up a Jira project and put user stories into the first sprint backlog in the System Design class, do it now.)</span></p><ul><li><p><span>Assign each user story to a developer.</span></p></li><li><p><span>The assigned developer will break their user stories down into </span><em><span>sub-tasks</span></em><span> by adding </span><em><span>child issues.</span></em></p></li><li><p><span>Make estimates for the user stories. You can do this individually or as a team, or a little of both.</span></p><ul><li><p><span>For this sprint estimate 1 story point = 1 hour.</span></p></li><li><p><span>Estimate the sub-tasks first, then the sum of the sub-task story points will be the user story estimate.</span></p></li><li><p><span>Add up the total story points for this sprint. If it comes up to more than 8 times the number of developers, then you need to remove one or more user stories.</span></p></li></ul></li><li><p><span>Paste a link to your Jira project into the online text for this assignment.</span></p></li></ul><p>&nbsp;</p></li></ol><hr /><p><a href='http://creativecommons.org/licenses/by-sa/4.0/'><img src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" referrerpolicy="no-referrer" alt="Creative Commons License"></a><span> Software Development Capstone course materials by </span><a href='https://profbird.dev'><span>Brian Bird</span></a><span>, written </span><time><span>2023</span></time><span>, are licensed under a </span><a href='http://creativecommons.org/licenses/by-sa/4.0/'><span>Creative Commons Attribution-ShareAlike 4.0 International License</span></a><span>. </span></p></div></div>
 <base target="_blank"></body>
 </html>

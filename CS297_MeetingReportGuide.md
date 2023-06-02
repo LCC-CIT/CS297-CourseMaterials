@@ -46,6 +46,16 @@ For this class (not the real world), you will make a report that lists these ite
 
 
 
+## Related Lecture Notes
+
+[Agile Scrum Review: Starting a Sprint](lectureNotes/CS297-LN-W01-D2-AgileProjectMgmt1.html)
+
+[Agile Scrum Review: Finishing a Sprint](LectureNotes/CS297-LN-W02-D2-AgileProjectMgmt2.html)
+
+[Scrum Meeting Report Guide](CS297_MeetingReportGuide.html)
+
+
+
 ## References
 
 [Atlassian Agile Coach](https://www.atlassian.com/agile)&mdash;Atlassian's guide to Agile Scrum.
