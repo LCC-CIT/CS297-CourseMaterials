@@ -21,7 +21,12 @@ Revise the sprint meetings lecture notes
   - One for the rest of the meetings (sprint review and team retrospective) and reporting on those.
     - Give this lecture in **week 2** since that's when they will do these meetings.
 
-### Review PRs and code reviews
+### Fix the Individual Progress Report assignment
+
+- Fix the first individual progress report assignment (remove the group version)
+- Rename the "progress report" to a "participation report"
+
+### Review PR and code review concepts
 
 All the usual stuff, plus:
 
@@ -51,3 +56,16 @@ Require a graded submission of the unit testing project.
 - Use cucumber?
   - [SpecFlow for .NET](https://docs.specflow.org/projects/getting-started/en/latest/index.html)
   - [Cucumber Open by SmartBear](https://cucumber.io/tools/cucumber-open/)
+
+### Modify the end of sprint reporting
+
+- Include links to Jira and GitHub
+
+- Summary and evaluation paragraph should include "take-aways", summarize what the team learned from this.
+
+  
+
+## Week 4
+
+### Publish to web server before spring 2 product review 
+
