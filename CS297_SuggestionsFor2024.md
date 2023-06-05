@@ -63,9 +63,13 @@ Require a graded submission of the unit testing project.
 
 - Summary and evaluation paragraph should include "take-aways", summarize what the team learned from this.
 
+- Starting week 4 (end of sprint 2), include a link to the site on a web server.
+
+  
+  
   
 
 ## Week 4
 
-### Publish to web server before spring 2 product review 
+### Publish to web server before sprint 2 product review 
 
