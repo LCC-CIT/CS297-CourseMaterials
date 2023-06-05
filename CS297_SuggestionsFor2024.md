@@ -1,12 +1,14 @@
-# Suggestions for Next Year's Class (2023)
+# Suggestions for Next Year's Class (2024)
 
 [TOC]
 
 
 
-## Week 1
+## Week 1 
 
-Revise the "Intro to course" lecture notes
+### Revise the "Intro to course" lecture notes
+
+***(I think I've already done this in 2023)***
 
 - Break into two files:
   -  Intro to course--about how the class is like the real world and what we hope they will learn and how this is important to employers.
@@ -19,9 +21,17 @@ Revise the sprint meetings lecture notes
   - One for the rest of the meetings (sprint review and team retrospective) and reporting on those.
     - Give this lecture in **week 2** since that's when they will do these meetings.
 
+### Review PRs and code reviews
+
+All the usual stuff, plus:
+
+- Just one user story per PR, unless the implementation of one user story can’t be tested without implementing another.
+- User stories should not be marked done until the PR has been reviewed, accepted, and the code merged into main.
+- PR should include tests: always a functional test, sometimes also a unit test or integration test.
+
 ## Week 2
 
-Review unit testing. Talk about:
+### Review unit testing. Talk about:
 
 -  Why we use the repository pattern. 
 
@@ -35,3 +45,9 @@ Review unit testing. Talk about:
 
 Require a graded submission of the unit testing project.
 
+### Introduce functional testing now instead of week 4
+
+- A test should be written for every PR.
+- Use cucumber?
+  - [SpecFlow for .NET](https://docs.specflow.org/projects/getting-started/en/latest/index.html)
+  - [Cucumber Open by SmartBear](https://cucumber.io/tools/cucumber-open/)

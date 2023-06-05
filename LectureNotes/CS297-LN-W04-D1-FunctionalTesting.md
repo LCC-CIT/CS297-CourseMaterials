@@ -47,13 +47,15 @@ Multiple sites (can all be on the same server)
 - Staging (testing) site
 - Production site
 
+In this class you will only need a development and staging site since you won't release your web app to production until the end of the term.
+
 ## Writing a Test Procedure
 
 Here is an example taken from Hamilton (2022) :
 
 ![](FormatForStandardTestCases.png)
 
-## Keep Updating the Procedure
+## Keep Updating the Test Procedure
 
 You will use this test procedure to veryify your site is working correctly before each release:
 
@@ -61,14 +63,17 @@ You will use this test procedure to veryify your site is working correctly befor
 - Beta
 - Production
 
-Make sure the test procedure is up to date with any changes or new features you've added since the last revision of the procedure.
+Keep your test plan up to date.
+
+- For every user story you implement, add a test case to the test plan before craeting a PR. Reference the test case on the PR.
+- Review the plan before each release to be sure it is up to date.
 
 ## Bug Tracking
 
 #### Bug / issue tracking systems
 
 - Specialized for bug tracking
-  - BugZilla](https://www.bugzilla.org)
+  - [BugZilla](https://www.bugzilla.org)
   - [Mantis](http://www.mantisbt.org)
   - GitHub Issues
 
