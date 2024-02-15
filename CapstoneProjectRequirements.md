@@ -17,6 +17,8 @@ The software you build for your client should meet the following requirements:
 
 - Use a database
 
+- Use Bootstrap or another front-end library for layout and styling.
+
 - Include some kind of graphics such as images, videos or animations.
 
 - Include a feature requiring some custom (non-framework) code.
