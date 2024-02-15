@@ -17,13 +17,17 @@ The software you build for your client should meet the following requirements:
 
 - Use a database
 
-- Use include authentication and authorization.
+- Include some kind of graphics such as images, videos or animations.
 
-- Have pages with user input forms.
+- Include a feature requiring some custom (non-framework) code.
+
+- Include authentication and authorization.
 
 - Have an administrative page or other pages restricted for authorized users.
 
-- Be hosted on a server during development
+- Have pages with user input forms.
+
+- Be hosted on a server during development.
 
   
 
