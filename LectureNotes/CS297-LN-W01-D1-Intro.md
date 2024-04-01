@@ -40,7 +40,7 @@
     - 8 hours in class
     - 4 hours outside of class
 
-- Everyone needs a client (web dev) and testers (just testers for game dev).
+- Everyone needs a client (web dev) and testers.
 
 
 
@@ -88,7 +88,7 @@ Schedule a time and place for each type of team meeting.
 - End of sprint metings
 
   - Product review with client (3 hours).
-  - Team retrospect meeting (1 hour).
+  - Team retrospective meeting (1 hour).
 
 - Report meeting plans to your instructor.
 
@@ -114,6 +114,6 @@ Schedule a time and place for each type of team meeting.
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2022</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2024</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
