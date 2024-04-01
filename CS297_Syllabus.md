@@ -1,6 +1,6 @@
 <h1>Syllabus for CS297: Programming Capstone</h1>    
 
-**Spring 2023*4
+**Spring 2024**
 
 
 
@@ -140,19 +140,19 @@ Please be aware that any accessible tables and chairs in this  room should remai
 
 (May be subject to change)
 
-| Sprint | Week | Focus                  | Assignments                                           |
-| ------ | ---- | ---------------------- | ----------------------------------------------------- |
-| 1      | 1    | Team/Git Workflow      | Set up team accounts                                  |
-|        | 2    | Remote collaboration   |                                                       |
-| 2      | 3    |                        |                                                       |
-|        | 4    | Functional Testing     | Test procedure                                        |
-| 3      | 5    | Continuous Integration | Test report                                           |
-|        | 6    | Alpha Release          | Update project docs                                   |
-| 4      | 7    |                        | Alpha presentation                                    |
-|        | 8    | Beta Release           | Report on bugs, bug fixes, new features               |
-| 5      | 9    | Code freeze            | Update project docs again                             |
-|        | 10   | Release to Production  | Submit final project code                             |
-|        | 11   | Finals week            | Final project presentations (instead of a final exam) |
+| Sprint | Week | Focus                  | Assignments                                                  |
+| ------ | ---- | ---------------------- | ------------------------------------------------------------ |
+| 1      | 1    | Team/Git Workflow      | Set up team accounts                                         |
+|        | 2    | Remote collaboration   |                                                              |
+| 2      | 3    |                        |                                                              |
+|        | 4    | Functional Testing     | Test procedure                                               |
+| 3      | 5    | Continuous Integration | Test report                                                  |
+|        | 6    | Alpha Release          | Update project docs                                          |
+| 4      | 7    |                        | Alpha presentation                                           |
+|        | 8    | Beta Release           | Report on bugs, bug fixes  <br />and new features            |
+| 5      | 9    | Code freeze            | Update project docs again                                    |
+|        | 10   | Release to Production  | Submit final project code                                    |
+|        | 11   | Finals week            | Final project presentations  <br />(instead of a final exam) |
 
 
 
