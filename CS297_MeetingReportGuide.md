@@ -21,14 +21,15 @@ Each of these reports will be submitted at the end of every sprint. These report
 For this class (not the real world), you will make a report that lists these items for each meeting:
 
 - Time and date of the meeting.
-- List of real-time participants.
+- List of participants.  
+  (Its ok for these meetings to be asynchronous.)
 
 
 
 ### Sprint Review Meeting Report
 
 - Date and time.
-- Team members present.
+- Team members present in real-time.
 - Length of the meeting.
 - Short (one paragraph) summary of the feedback from your client.
 
@@ -37,7 +38,7 @@ For this class (not the real world), you will make a report that lists these ite
 ### Team Retrospective Report
 
 - Date and time.
-- Team members present.
+- Team members present in real-time.
 - Length of the meeting.
 - Short (one paragraph) summary of what you will:
   - keep doing
@@ -69,4 +70,4 @@ For this class (not the real world), you will make a report that lists these ite
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2023, revised <time>2024</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
