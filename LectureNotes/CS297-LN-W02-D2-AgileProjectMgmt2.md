@@ -40,20 +40,6 @@ Meeting with client, aka "product owner" (or testers for game dev).
 - Whole team participates
 - Invite the world
 
-#### Sprint Review Meeting Report  
-
-*TODO: Revise*
-
-*For this class (not the real world), you will report these items:*
-
-- *Time and date of the meeting.*
-- *List of real-time participants.*
-- *Name of the scrum master.*
-- *Time & date planned for product review with client.*
-- *Any blocking issues that might need to be resolved.*
-
-This report will be submitted at the end of the sprint.
-
 ### Sprint retrospective
 
 Periodically take a look at what is and is not working.
@@ -97,6 +83,6 @@ Periodically take a look at what is and is not working.
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2024</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
