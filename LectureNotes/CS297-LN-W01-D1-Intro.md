@@ -97,8 +97,9 @@ Schedule a time and place for each type of team meeting.
 ## Report Progress
 
 - Each individual will report weekly:
-  - Hours worked.
-  - User stories and/or tasks completed and time spent on each.
+  - Hours worked. This includes class and sprint meeting time.
+  - User stories and/or tasks completed and time spent on each.  
+    (This does not include meetings and other time not spent working on user stories.)
   - PRs sent.
   - Participation in synchronous team work sessions.
 - Each team will report at the end of each sprint:
