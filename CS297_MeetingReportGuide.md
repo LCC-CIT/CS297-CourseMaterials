@@ -49,7 +49,7 @@ For this class (not the real world), you will make a report that lists these ite
 
 ## Related Lecture Notes
 
-[Agile Scrum Meetings: sprint planning & daily standups](lectureNotes/CS297-LN-W01-D2-AgileProjectMgmt1.html)
+[Agile Scrum Meetings: sprint planning & daily standups](LectureNotes/CS297-LN-W01-D2-AgileProjectMgmt1.html)
 
 [Agile Scrum Meetings: sprint review & retrospective](LectureNotes/CS297-LN-W02-D2-AgileProjectMgmt2.html)
 
