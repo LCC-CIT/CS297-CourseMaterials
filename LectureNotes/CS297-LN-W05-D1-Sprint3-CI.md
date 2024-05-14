@@ -32,15 +32,19 @@ author: Brian Bird
 
 [TOC]
 
-## This Week's Overview
+## Introduction
+
+### Spring 2024 Discussion
+
+- Sprint 2 finished last week. Two teams have submitted their reports. A couple teams are having the product review meeting with their client today or tomorrow, so those sprint meeting reports will be turned in later this week.
+
+### Week 5 Overview
 
 - Sprint 3
-
-  - Sprint planning meeting today or tomorrow. I'd like to sit in to give feedback. Let me know when you will meet.
+  - Sprint planning meeting today or tomorrow.
 
   - Product review and team retrospective meetings at the end of next week.
-
-- Alpha release at the end of this sprint
+- Alpha release at the end of this sprint (week 6)
 
   - Alpha testing
     - UX testing
@@ -53,17 +57,19 @@ author: Brian Bird
 
 ### What is CI?
 
-Continuous Integration (CI) refers to multiple devs on a team doing frequently merging small changes with the main branch of their central repository. They are *integrating* changes *continuously* rather than periodically&mdash;hence the name, Continuous Integration.  One of the most important practices of CI is to test all the changes that you are making to your code base before merging it to the main branch. You can do this with unit tests, integration tests, and/or functional tests[^1]. Automating the test process makes in practical to merge more often.
+Continuous Integration (CI) refers to multiple devs on a team frequently merging small changes with the main branch of their central repository. They are *integrating* changes *continuously* rather than periodically&mdash;hence the name, *Continuous Integration*.  The merge starts when a developer finishes a task (as long as it constitutes working, testable code) or a whole user story and sends a PR to the team.
+
+One of the most important practices of CI is to <u>review and test</u> all the changes that you are making to your code before merging it to the main branch. You can do this with unit tests, integration tests, and/or functional tests[^1]. Automating the test process makes in practical to merge more often.
 
 ### Frequent Reverse Merging
 
 Integrating code "continuously", means that devs merge their code once a day or even more often (Fowler, 2006). This doesn't mean devs need to send PRs that often. A dev can do frequent "reverse merges" where they merge the code from the main branch into their own development branch and test it&mdash;preferably with an automated test. (Of course, it only makes sense to do this after the main branch has changed.) This practice reduces integration problems when they do issue a PR and merge their code into the main branch. 
 
-PRs to merge code into the main branch should be issued after each task in a user story is completed. This is why automated testing is so important. If devs have to spend time manually testing code for daily PRs it will slow down development.
+PRs to merge code into the main branch should be issued after each task (or set of tasks, if an individual task can't be tested) in a user story is completed. This is why automated testing is so important. If devs have to spend time manually testing code for daily PRs it will slow down development.
 
 ### Automated Building and Testing
 
-All of the major Git central repository services, like GitHub, GitLab, BitBucket, and Azure DevOps, offer  automated build and test services. These services require that environments be set up for both building and testing the software that is being developed. We will focus on doing this with GitHub Actions which allows a dev to automate workflows in response to events that are triggered in GitHub.
+All of the major Git central repository services, like GitHub, GitLab, BitBucket, and Azure DevOps, offer automated build and test services. These services require that environments be set up for both building and testing the software that is being developed. We will focus on doing this with GitHub Actions which allows a dev to automate workflows in response to events that are triggered in GitHub.
 
 The most common way to automate functional testing of web apps is to use a test system that automates the browser. A popular browser test automation system is [Selenium](https://www.selenium.dev/).
 
@@ -83,7 +89,7 @@ The basic idea behind GitHub Actions is that you set up a *workflow* to be trigg
 - 
   Job
 
-  A job is a set of steps in a workflow that execute on the same runner.
+  A job is a set of steps in a workflow that execute on a runner.
   
 - 
   Runner
@@ -155,4 +161,4 @@ Haris Khan, [Automated Testing with Selenium Using GitHub Actions – A Step-by-
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2022, revised <time>2024</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 

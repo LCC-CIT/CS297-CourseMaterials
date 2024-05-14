@@ -66,7 +66,7 @@ Periodically take a look at what is and is not working.
 
 [Agile Scrum Review: Starting a Sprint](lectureNotes/CS297-LN-W01-D2-AgileProjectMgmt1.html)
 
-[Scrum Meeting Report Guide](CS297_MeetingReportGuide.html)
+[Scrum Meeting Report Guide](../CS297_MeetingReportGuide.html)
 
 
 
