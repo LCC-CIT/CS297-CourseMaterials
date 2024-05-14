@@ -35,7 +35,7 @@ Meeting with client, aka "product owner" (or testers for game dev).
   - The team should demo the features, then let the product owner try them out.
   - Provide access to the demo software for the product owner to test after the demo.
 - Informal
-  - 2-hour max prep time rule.
+  - Minimal preparation.
   - No slides.
 - Whole team participates
 - Invite the world

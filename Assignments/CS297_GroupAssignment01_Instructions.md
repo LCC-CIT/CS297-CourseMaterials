@@ -38,7 +38,7 @@ author: Brian Bird
    - Make estimates for the user stories. You can do this individually or as a team, or a little of both.
      - For this sprint estimate 1 story point = 1 hour.
      - Estimate the sub-tasks first, then the sum of the sub-task story points will be the user story estimate.
-     - Add up the total story points for this sprint. If it comes up to more than 8 times the number of developers, then you need to remove one or more user stories.
+     - Add up the total story points for this sprint. If it comes up to more than 8 times the number of developers times 2 (two weeks per sprint), then you need to remove one or more user stories.
    - Paste a link to your Jira project into the online text for this assignment.
 
    3. As a team, decide on the days and times you will be meeting each week. You should have at least two meetings a week either in the classroom during class time or at some other time in some other place (in person, or online). Post the meeting days and times in the online text on the Moodle assignment.

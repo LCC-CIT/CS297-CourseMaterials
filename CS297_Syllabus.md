@@ -63,7 +63,7 @@ Since one of the main objectives for this class is to learn to  produce a major 
 
 
 
-| Assessment                  |Percentage of grade |
+| Assessment                  |Grade |
 | --------------------------------------------- | ------------------ |
 | ***Team*** | ***50%*** |
 | Team assignments | 10% |
@@ -75,11 +75,11 @@ Since one of the main objectives for this class is to learn to  produce a major 
 | ***Individual*** |***50%*** |
 | Individual assignments | 10% |
 | Participation with your team | 40% |
-| - Git pull requests created (1 or more per week) | |
-| - User story hours (8 or more pre week) | |
+| - Git pull requests created (average of 1 or more per week) | |
+| - User story hours (average of 8 or more pre week) | |
 | - Sprint meeting participation (15 per term) | |
 | - Team stand-up + work sessions (40 or more per term) | |
-| - Class[^1] and work hours (12 or more per week) | |
+| - Class[^1] and work hours (average of 12 or more per week) | |
 
  Letter grades for the course will be determined by the following percentages:        
 
