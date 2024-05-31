@@ -40,7 +40,7 @@ This week you will release your project for alpha testing. Today we will discuss
 
 - Get early feedback on usability from potential end-users and other stake holders.
 - Get bug reports from potential end users as opposed to just testers.
-  In this context, we mean that we won't be using just software or game dev type people for testing. We'll be releasing the product to people who are typical of those who we expect to use the product.
+  In this context, we mean that we won't be using just software dev type people for testing. We'll be releasing the product to people who are typical of those who we expect to use the product.
 - Motivation to get your project to a usable state.
 
 ### Characteristics of an alpha release

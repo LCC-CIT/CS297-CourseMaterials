@@ -21,7 +21,7 @@
 
 [TOC]
 
-## Discuss Syllabus
+# Discuss Syllabus
 
 - Participation grade
 
@@ -42,9 +42,9 @@
 
 - Everyone needs a client (web dev) and testers.
 
+# Review Design and Planning
 
-
-## Review Design Documents
+## Design Documents
 
 Review your design documents.
 
@@ -52,9 +52,7 @@ Review your design documents.
 - Review and revise the domain model based on feedback from instructor.
 - Review and revise UX diagrams if needed.
 
-
-
-## Review Jira Project
+## Jira Project
 
 - Review the Epics, user stories, sprints (two week) and product backlog. 
   - Is anything missing? 
@@ -67,11 +65,11 @@ Review your design documents.
 
 
 
-## Plan Team Meetings
+# Plan Team Meetings
 
 Schedule a time and place for each type of team meeting.
 
-- Daily synchronous work (8 hours per week).
+- Synchronous work sessions (4 hours per week minumum).
 
   - Options are:
 
@@ -92,21 +90,23 @@ Schedule a time and place for each type of team meeting.
 
 - Report meeting plans to your instructor.
 
-
-
-## Report Progress
+#  Report Progress
 
 - Each individual will report weekly:
-  - Hours worked. This includes class and sprint meeting time.
-  - User stories and/or tasks completed and time spent on each.  
-    (This does not include meetings and other time not spent working on user stories.)
-  - PRs sent.
   - Participation in synchronous team work sessions.
+  - Hours worked. This includes class, meeting and coding time.
+  - User stories and/or tasks completed and time spent.  
+    (This does not include meetings and other time <u>not</u> spent working on user stories.)
+  - PRs sent.
 - Each team will report at the end of each sprint:
   - For sprint planning meetings: time, participants, scrum master, time & date planned for product review with client, and issues (if any).
   - For product review meeting with client: time, participants, and feedback.
   - For team retrospective: time, participants, and what you will keep doing, stop doing, start doing.
 - Each team's scrum master will ensure that the team keeps the Jira project up to date.
+
+# Reference
+
+[Meeting Report Guide](CS297_MeetingReportGuide.html)
 
 
 
