@@ -90,12 +90,12 @@ Describe what has been going well, what hasn't gone well, and  what you would do
 
 ## Documentation
 
-As a team, you will post the following documents in the Alpha Release forum:
+As a team, you will post the following documents in the Preliminary Presentation Documentation forum:
 
 - Updated design documents:
   - UML class diagram of your domain model
   - Wireframes of yet-to-be-made UI
-- A link to  your Jira project (this is for your instructor, you don't need to invite the whole class)
+- A link to your Jira project (this is for your instructor, you don't need to invite the whole class)
 - A link to your GitHub repository (this doesn't need to be public, just your instructor needs to access it.)
 
 
