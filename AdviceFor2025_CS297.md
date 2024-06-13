@@ -21,5 +21,36 @@ Servers: Set up staging and production servers.
 
 
 
+## Practices
 
+- Require a staging/testing server in addition to the production server
+- Teach them to use Selenium
+- 
+
+## Things Related to the Final Grade
+
+### Participation
+
+- Instead of having students report PRs and User story points, have then send a link to those pages on GitHub and Jira.
+- For meeting attendance:
+  - Combine daily standup with team work sessions
+  - Require two real-time work sessions and two that are optionally async
+  - Document sprint meetings in Jira?
+- Give participation grades more often  (after each sprint?)
+- Add the participation grade weighting to the syllabus with some room in it for me to make subjective adjustments.
+- Grade Jira use at the end of each sprint.
+
+### Final Submission
+
+- Each student should summarize what they did for the project in one paragraph
+- Update the rubric!
+  - Put back in: validation, security testing, performance testing.
+  - Best practices to look for:
+    - Repository pattern
+    - Model implementation:  Models with users should have a type of user class, not string for username.
+    - Passwords and user names should not be in the source code.
+    - There should be separate dev and prod appsettings.json files.  
+      But, they shouldn't necessarily be in Git! The base appsettings.json should though.
+- Grade git management: no non-source in repo, PRs and merging
+- Grade Jira management
 
