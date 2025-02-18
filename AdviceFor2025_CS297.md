@@ -19,6 +19,8 @@ Identity scaffolding: give the tutorial.
 
 Servers: Set up staging and production servers.
 
+Learn and teach mocking. Maybe this will make TDD more practical.
+
 
 
 ## Practices
