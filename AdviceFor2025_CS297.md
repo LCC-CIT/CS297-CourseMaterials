@@ -53,9 +53,10 @@ Learn and teach mocking. Maybe this will make TDD more practical.
 - Each student should summarize what they did for the project in one paragraph.
 - In the presentation, each student should demo what they did.
 - Update the rubric!
-  - Put back in: validation, security testing, performance testing.
+  - Put back in: validation, authorization and authentication, security testing, performance testing.
   - Best practices to look for:
     - Repository pattern
+    - Async methods
     - Model implementation:  Models with users should have a type of user class, not string for username.
     - Passwords and user names should not be in the source code.
     - There should be separate dev and prod appsettings.json files.  
