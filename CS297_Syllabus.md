@@ -1,16 +1,15 @@
 <h1>Syllabus for CS297: Programming Capstone</h1>    
 
-**Spring 2024**
+**Spring 2025**
 
 
 
-| <u>Class</u>      |                                                       |      | <u>Instructor</u> |                                                       |
-| ----------------- | ----------------------------------------------------- | ---- | ----------------- | ----------------------------------------------------- |
-| **Course Number** | CS297                                                 |      | **Name**          | Brian Bird                                            |
-| **CRN**           | 40439 on campus <br />41531 online                    |      | **Email**         | birdb@lanecc.edu                                      |
-| **Time and Day**  | 2:00–3:50, M, W                                       |      | **Office Hours**  | M, T, Th 11:00&ndash;11:50<br />W 10:00&ndash;10:50   |
-| **Room**          | Building 19, Room 126                                 |      | **Room**          | Building 19, Room 152                                 |
-| **Zoom**          | [918 6904 2647](https://lanecc.zoom.us/j/91869042647) |      | **Zoom**          | [999 4938 2507](https://lanecc.zoom.us/j/99949382507) |
+| <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
+| ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
+| **Course Number** | CS297                                                        |      | **Name**          | Brian Bird                                                   |
+| **CRN**           | 40358 on campus <br />41260 online                           |      | **Email**         | birdb@lanecc.edu                                             |
+| **Time and Day**  | Tu, Th 2:00–3:50                                             |      | **Office Hours**  | M&mdash;Th 1:00&ndash;1:50                                   |
+| **Room**          | Building 19, Room 126<br />or [Zoom meeting](https://lanecc.zoom.us/j/92127242547) |      | **Room**          | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/97305128975) |
 
 
 
@@ -117,16 +116,14 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 ## Academic Calendar
 
-| Spring Term 2024                           |                 |
-| ------------------------------------------ | --------------- |
-| Term begins                                | 4/1, Monday     |
-| Last day to receive refund                 | 4/8, Monday     |
-| Spring conference for faculty (no classes) | 5/3, Friday     |
-| Last day for schedule changes              | 5/24, Friday    |
-| Memorial Day Holiday                       | 5/27, Monday    |
-| Finals Week                                | 6/10&ndash;6/14 |
-
-
+| Spring Term 2025                           |              |
+| ------------------------------------------ | ------------ |
+| Term begins                                | 3/31, Monday |
+| Last day to receive refund                 | 4/7, Monday  |
+| Spring faculty conference (college closed) | 5/2, Friday  |
+| Last day for schedule changes              | 5/23, Friday |
+| Memorial day holiday (college closed)      | 5/26, Monday |
+| Finals Week                                | 6/9–6/13     |
 
 ## Accessibility and Accommodations: 
 
