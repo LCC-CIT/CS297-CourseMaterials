@@ -106,7 +106,9 @@ Students will be trusted to accurately report their class and  team participatio
 
 ### Attendance
 
-Attendance is both required and graded. The main activity you  will do in this class is the work you do with your team, you need to be  present with your team to do that work effectively. 
+Attendance is both required and graded. The main activity you will do in this class is the work you do with your team, you need to be  present with your team to do that work effectively. 
+
+Online student teams will schedule weekly times that they can all meet together online or in person to coordinate their work.
 
 #### No-Show Drop
 
@@ -153,4 +155,4 @@ Please be aware that any accessible tables and chairs in this  room should remai
 
 
 
-[^1]: Special arrangements will be made for teams or individuals who cannot meet during the normally scheduled class time.
+[^1]: Online students will work with their teams both synchronously and asychronously rather than working with their teams in the classroom.
