@@ -9,15 +9,15 @@ author: Brian Bird
 
 **CS 297, Software Development Capstone**
 
-1. Set up Git repository for your team's project on GitHub.  
+1. Set up a Git repository for your team's project on GitHub.  
    Don't reuse the one you created for your prototype, make a new one.
 
-   1. A .gitignore file for Visual Studio  
+   1. A `.gitignore` file for Visual Studio  
      This needs to be in the first commit to the repository in order to be effective.
 
    2. Create a docs folder and add the following:
      - Updated design documents from the System Design class:
-       - Project proposal
+       - Requirements document
        - UI wireframes
        - Domain model UML diagram  
          Revise this to reflect any feedback you got when it was graded.
@@ -47,4 +47,4 @@ author: Brian Bird
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Software Development Capstone course materials by [Brian Bird](https://profbird.dev), written 2023, revised <time>2024</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Software Development Capstone course materials by [Brian Bird](https://profbird.dev), written 2023, revised <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
