@@ -27,7 +27,7 @@ Next week we will review the *sprint review* meeting and the *sprint retrospecti
 
 ### Product owner
 
-For the web dev teams, this is your client.
+This is your client.
 
 - Define the features of the product.
 - Decide on release date and content.
@@ -47,7 +47,7 @@ For the web dev teams, this is your client.
 
 ### Team
 
-- Typically 5-9 people in the "real world", 3 to 4 in our class.
+- Typically 5-9 people in the "real world", 2 to 4 in our class.
 - Cross-functional:
   Programmers, testers, user experience designers, etc.
 - Members should be full-time in the "real world".
@@ -63,7 +63,15 @@ For the web dev teams, this is your client.
 
 ## Scrum Meetings
 
-During each sprint you will hold these meetings (aka "ceremonies").
+During each sprint you will hold these meetings (aka "ceremonies"):
+
+- At the beginning of the sprint:
+  - **Sprint planning**: the team plans the sprint, builds the sprint backlog.
+- During the sprint:
+  - **Daily standup**: each team member updates the team on their progress.
+- At the end of the sprint:
+  - **Sprint review**: the team gets feedback about the product from the client.
+  - **Sprint retrospective**: the team evaluates what went well and what didn't.
 
 It's best to do this with everyone looking at the backlog and sprints on your agile management software (such as Jira).
 
@@ -138,4 +146,4 @@ It's best to do this with everyone looking at the backlog and sprints on your ag
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2023</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2025</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
