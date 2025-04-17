@@ -110,15 +110,15 @@ It's best to do this with everyone looking at the backlog and sprints on your ag
   - Is anything in your way?
 
 - Parameters:
-  - Daily
-    15-minutes
+  - Daily (or whenever the team has work sessions)
+    15-minutes&mdash;total, not per person!
     Stand-up
 
   - Not for problem solving or giving advice or opinions.
     (Problem solving can be done one-on-one outide of a team meeting.)
 
   - These are not status reports for the ScrumMaster
-    or product owner. They are commitments in front of peers.
+    or product owner. They are progress reports and commitments in front of peers.
 
   - The "whole world" is invited, but...
 
@@ -127,7 +127,7 @@ It's best to do this with everyone looking at the backlog and sprints on your ag
 
 ## Related Lecture Notes
 
-[Agile Scrum Review: Finishing a Sprint](CS297-LN-W02-D2-AgileProjectMgmt2.html )
+[Agile Scrum Review and Retrospective: Finishing a Sprint](CS297-LN-W02-D2-AgileProjectMgmt2.html )
 
 [Scrum Meeting Report Guide](../CS297_MeetingReportGuide.html)
 
