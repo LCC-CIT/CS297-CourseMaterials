@@ -36,22 +36,23 @@ Functional tests confirm that a software application or system operates correctl
 
 Functional testing is "Black box" (vs "White box" testing)
 
-- Black box tests use the application's user interfaces and public APIs
-- White box tests use internal interfaces - unit tests are an example
+- Black box tests use the application's user interfaces and public APIs.
+- White box tests use internal interfaces&mdash;unit tests are an example.
 
 ### Staging for Testing Web Apps
 
-Multiple sites (can all be on the same server)
+Dev teams often use three web sites (they can all be on the same web server, or not)
 
 - Development site
 - Staging (testing) site
 - Production site
 
-In this class you will only need a development and staging site since you won't release your web app to production until the end of the term.
+At this point, you will only need a development and staging site since you won't release your web app to production until the end of the term.
 
 ## Writing a Test Procedure
 
-Here is an example taken from Hamilton (2022) :
+Here is an example taken from Hamilton (2022)  
+Note that the *Actual Results* and *Pass/Fail* columns will be filled in by a tester.
 
 ![](FormatForStandardTestCases.png)
 
@@ -66,7 +67,7 @@ You will use this test procedure to veryify your site is working correctly befor
 Keep your test plan up to date.
 
 - For every user story you implement, add a test case to the test plan before craeting a PR. Reference the test case on the PR.
-- Review the plan before each release to be sure it is up to date.
+- Review the test plan before each release to be sure it is up to date.
 
 ## Bug Tracking
 
@@ -76,10 +77,8 @@ Keep your test plan up to date.
   - [BugZilla](https://www.bugzilla.org)
   - [Mantis](http://www.mantisbt.org)
   - GitHub Issues
-
 - Agile project management systems which include issue tracking:
-  - Jira
-  - Pivotal Tracker
+  - [Jira](https://www.atlassian.com/software/jira/features/bug-tracking)
   - ZenHub
   - Azure DevOps Boards
 
@@ -95,6 +94,11 @@ Ask your testers to enter the following information:
   - Include any error messages
   - Include a screen-shot if needed
 
+**Example from Jira**  
+Note that Jira has a "Bug" option for the issue "work type".  
+
+<img src="/Volumes/DataCard/Repos/CS297-CourseMaterials/LectureNotes/Images/JiraBugIssue.png" alt="JiraBugIssue" style="zoom:40%;" />
+
 
 
 
@@ -109,9 +113,6 @@ How to write a set of test cases for manually testing a software application.
 Lawrence Howlett, [ How To Create Your Own Front-End Website Testing Plan](https://www.smashingmagazine.com/2014/11/how-to-create-your-own-front-end-website-testing-plan/), SmashingMag, 2014.
 This article shows you what to consider when creating a front-end  testing plan and how to test efficiently across browsers, devices and  web pages.
 
-Johan Hoberg, [Differences between Software Testing and Game Testing](http://www.gamasutra.com/blogs/JohanHoberg/20140721/221444/Differences_between_Software_Testing_and_Game_Testing.php), Gamasutra, 2014.
-What is the major difference between testing an application or a software system compared to testing a game?
-
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2023</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
