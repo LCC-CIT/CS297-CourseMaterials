@@ -97,7 +97,7 @@ Ask your testers to enter the following information:
 **Example from Jira**  
 Note that Jira has a "Bug" option for the issue "work type".  
 
-<img src="/Volumes/DataCard/Repos/CS297-CourseMaterials/LectureNotes/Images/JiraBugIssue.png" alt="JiraBugIssue" style="zoom:40%;" />
+<img src="Images/JiraBugIssue.png" alt="JiraBugIssue" style="zoom:40%;" />
 
 
 
