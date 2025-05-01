@@ -95,8 +95,10 @@ A job is a set of steps in a workflow that execute on the same runner.
 
 This is where we describe the actions that will be taken. We find the actions that are possible in the [GitHub Actions Marketplace](https://github.com/marketplace?type=actions). Here are the ones we are using:
 
-- [checkout](https://github.com/marketplace/actions/checkout)
-- [setup-dotnet](https://github.com/marketplace/actions/setup-dotnet)
+- [checkout](https://github.com/marketplace/actions/checkout) 
+  Checks out a branch of your repository
+- [setup-dotnet](https://github.com/marketplace/actions/setup-dotnet)  
+  Sets up a .NET CLI environment
 
 
 
@@ -192,12 +194,6 @@ When you have code that is ready for a PR and to be merged into main:
 
 1. Do a *reverse merge* (merging the main into your new code branch). Build and test the code locally to verify everything is ok.
 2. Create a PR to get the code reviewed and merged into main. When the new code is merged into main, the CI workflow is triggered to run and verify that all is well.
-
-
-
-## Example
-
-[CS 296N Book Reviews Web Site (2022 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews)
 
 
 
