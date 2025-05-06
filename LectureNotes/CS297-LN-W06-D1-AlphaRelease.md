@@ -66,7 +66,7 @@ This week you will release your project for alpha testing. Today we will discuss
 - The web app should be tested running online, not on a development machine.
 - You identified three testers when you submitted your test plan. Hopefully at least one of them is not a developer.
 - Your testers will use your test plan to test the functionality of the web app.
-- You testers will also give you feedback on UX and usefulness of the web app.
+- Your testers will also give you feedback on UX and usefulness of the web app.
   You can either use the survey you used in the system design class to get UX feedback or an interview.
 
 
