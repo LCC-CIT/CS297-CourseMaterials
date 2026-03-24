@@ -1,15 +1,15 @@
 <h1>Syllabus for CS297: Programming Capstone</h1>    
 
-**Spring 2025**
+**Spring 2026**
 
 
 
 | <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
 | ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
 | **Course Number** | CS297                                                        |      | **Name**          | Brian Bird                                                   |
-| **CRN**           | 40358 on campus <br />41260 online                           |      | **Email**         | birdb@lanecc.edu                                             |
+| **CRN**           | 40313 on campus <br />41058 online                           |      | **Email**         | birdb@lanecc.edu                                             |
 | **Time and Day**  | Tu, Th 2:00–3:50                                             |      | **Office Hours**  | M&mdash;Th 1:00&ndash;1:50                                   |
-| **Room**          | Building 19, Room 126<br />or [Zoom meeting](https://lanecc.zoom.us/j/92127242547) |      | **Room**          | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/97305128975) |
+| **Room**          | Building 19, Room 126<br />or [Zoom meeting](https://lanecc.zoom.us/j/96754591710) |      | **Room**          | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 
 
@@ -106,9 +106,9 @@ Students will be trusted to accurately report their class and  team participatio
 
 ### Attendance
 
-Attendance is both required and graded. The main activity you will do in this class is the work you do with your team, you need to be  present with your team to do that work effectively. 
+Attendance is both required and graded. The main activity you will do in this class is the work you do with your team, you need to be present with your team to do that work effectively. 
 
-Online student teams will schedule weekly times that they can all meet together online or in person to coordinate their work.
+Online student teams will schedule twice-weekly times when all members can meet together online or in person to collaborate on their work.
 
 #### No-Show Drop
 
@@ -118,14 +118,14 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 
 ## Academic Calendar
 
-| Spring Term 2025                           |              |
+| Spring Term 2026                           |              |
 | ------------------------------------------ | ------------ |
-| Term begins                                | 3/31, Monday |
-| Last day to receive refund                 | 4/7, Monday  |
-| Spring faculty conference (college closed) | 5/2, Friday  |
-| Last day for schedule changes              | 5/23, Friday |
-| Memorial day holiday (college closed)      | 5/26, Monday |
-| Finals Week                                | 6/9–6/13     |
+| Term begins                                | 3/30, Monday |
+| Last day to receive refund                 | 4/6, Monday  |
+| Spring faculty conference (college closed) | 5/1, Friday  |
+| Last day for schedule changes              | 5/22, Friday |
+| Memorial day holiday (college closed)      | 5/25, Monday |
+| Finals Week                                | 6/8–6/12     |
 
 ## Accessibility and Accommodations: 
 
