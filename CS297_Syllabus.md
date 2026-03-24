@@ -4,12 +4,12 @@
 
 
 
-| <u>Class</u>      |                                                              |      | <u>Instructor</u> |                                                              |
-| ----------------- | ------------------------------------------------------------ | ---- | ----------------- | ------------------------------------------------------------ |
-| **Course Number** | CS297                                                        |      | **Name**          | Brian Bird                                                   |
-| **CRN**           | 40313 on campus <br />41058 online                           |      | **Email**         | birdb@lanecc.edu                                             |
-| **Time and Day**  | Tu, Th 2:00–3:50                                             |      | **Office Hours**  | M&mdash;Th 1:00&ndash;1:50                                   |
-| **Room**          | Building 19, Room 126<br />or [Zoom meeting](https://lanecc.zoom.us/j/96754591710) |      | **Room**          | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
+| <u>Class</u>      |                                                              |      | <u>Instructor</u>           |                                                              |
+| ----------------- | ------------------------------------------------------------ | ---- | --------------------------- | ------------------------------------------------------------ |
+| **Course Number** | CS297                                                        |      | **Name**                    | Brian Bird                                                   |
+| **CRN**           | 40313 on campus <br />41058 online                           |      | **Email****<br />**Mobile** | birdb@lanecc.edu<br />[‪(541) 525-0213‬](tel:5415250213)       |
+| **Time and Day**  | Tu, Th 2:00–3:50                                             |      | **Office Hours**            | M&mdash;Th 1:00&ndash;1:50                                   |
+| **Room**          | Building 19, Room 132<br />or [Zoom meeting](https://lanecc.zoom.us/j/96754591710) |      | **Room**                    | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 
 
@@ -126,6 +126,8 @@ LCC has a [no-show drop](https://www.lanecc.edu/esfs/noshow-drops) policy which 
 | Last day for schedule changes              | 5/22, Friday |
 | Memorial day holiday (college closed)      | 5/25, Monday |
 | Finals Week                                | 6/8–6/12     |
+
+View [academic calendars](https://www.lanecc.edu/programs-academics/registration-schedules-and-academic-calendar/academic-calendar) on the LCC web site.
 
 ## Accessibility and Accommodations: 
 
