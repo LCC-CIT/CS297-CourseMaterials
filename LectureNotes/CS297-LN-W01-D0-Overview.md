@@ -29,10 +29,10 @@ author: Brian Bird
 
 This week you will:
 
-- Review Agile Scrum meetings and sprints 
-- Learn the Git feature-branch workflow 
-- Learn to do weekly progress reporting 
-- Understand the project assessment criteria
+- Review Agile Scrum meetings and sprints.
+- Learn the Git feature-branch workflow.
+- Learn to do weekly progress reporting.
+- Understand the project assessment criteria.
 
 ## Announcements
 

@@ -64,6 +64,8 @@ As a team, decide on the days and times you will be meeting each week. Schedule 
 
   - **Team retrospective** meeting.
 
+Upload a document to Moodle with your meeting schedules.
+
 
 
 ------

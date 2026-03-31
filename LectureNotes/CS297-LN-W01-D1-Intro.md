@@ -58,24 +58,27 @@ Review your design documents.
 
 Schedule a time and place for each type of team meeting.
 
-- Synchronous work sessions (4 hours per week minumum).
+1. Synchronous work sessions (4 hours per week minumum).
+   Options are:
 
-  - Options are:
+   - Class time if your team is an on-campus team.
 
-    - Class time if your team is an on-campus team.
 
-    - Working in person or sychrnously via Discord for online teams.
+   - Working in person or sychrnously via Discord for online teams.
 
-  - Start each work session with a "stand up" meeting.
+​	Start each work session with a "stand up" meeting.
 
-- Sprint planning meetings (1 to 2 hours).
+2. Sprint planning meetings (1 to 2 hours).
 
-- End of sprint metings
+3. End of sprint metings
 
-  - Product review with client (1 to 3 hours).
-  - Team retrospective meeting (1 hour).
+   - Product review with client (1 to 3 hours).
 
-- **Report meeting plans to your instructor.**
+   - Team retrospective meeting (1 hour).
+
+- A helpful tool for scheduling meetings is [Doodle](https://doodle.com/en/).
+
+  
 
 ##  Report Progress
 
