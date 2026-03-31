@@ -96,7 +96,7 @@ Schedule a time and place for each type of team meeting.
 
 ## Reference
 
-[Meeting Report Guide](CS297_MeetingReportGuide.html)
+[Meeting Report Guide](../CS297_MeetingReportGuide.html)
 
 
 
