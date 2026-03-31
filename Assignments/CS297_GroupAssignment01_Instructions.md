@@ -9,42 +9,63 @@ author: Brian Bird
 
 **CS 297, Software Development Capstone**
 
-1. Set up a Git repository for your team's project on GitHub.  
-   Don't reuse the one you created for your prototype, make a new one.
+## Git Repository
 
-   1. A `.gitignore` file for Visual Studio  
-     This needs to be in the first commit to the repository in order to be effective.
+Set up a Git repository for your team's project on GitHub.  
+Don't reuse the one you created for your prototype, make a new one.
 
-   2. Create a docs folder and add the following:
-     - Updated design documents from the System Design class:
-       - Requirements document
-       - UI wireframes
-       - Domain model UML diagram  
-         Revise this to reflect any feedback you got when it was graded.
-     - Team collaboration contract.
+1. A `.gitignore` file for Visual Studio  
+  This needs to be in the first commit to the repository in order to be effective.
 
-   3. Paste a link to your repository into the online text for this assignment on Moodle.
+2. Create a docs folder and add the following:
+  - Updated design documents from the System Design class:
+    - Requirements document
+    - UI wireframes
+    - Domain model UML diagram  
+      Revise this to reflect any feedback you got when it was graded.
+  - Team collaboration contract.
 
-2. In your sprint planning meeting, revise your first sprint.
+3. Paste a link to your repository into the online text for this assignment on Moodle.
 
-   (If your team didn't set up a Jira project and put user stories into the first sprint backlog in the System Design class, do it now.)
+## Jira Backlog and Sprint 1
 
-   - Review the user stories in your project backlog
-     - If you got feedback suggesting changes when they were graded make the changes now.
-     - You've had a break, look over your backlog with fresh eyes and see if there are any missing user stories, or user stories that should be revised.
+In your sprint planning meeting this week, revise your first sprint.
 
-   - Assign each user story to a developer.
-   - The assigned developer will break their user stories down into *sub-tasks* by adding *child issues.*
-   - Make estimates for the user stories. You can do this individually or as a team, or a little of both.
-     - For this sprint estimate 1 story point = 1 hour.
-     - Estimate the sub-tasks first, then the sum of the sub-task story points will be the user story estimate.
-     - Add up the total story points for this sprint. If it comes up to more than 8 times the number of developers times 2 (two weeks per sprint), then you need to remove one or more user stories.
-   - Paste a link to your Jira project into the online text for this assignment.
+(If your team didn't set up a Jira project and put user stories into the first sprint backlog in the System Design class, do it now.)
 
-   3. As a team, decide on the days and times you will be meeting each week. You should have at least two meetings a week either in the classroom during class time or at some other time in some other place (in person, or online). Post the meeting days and times in the online text on the Moodle assignment.
-   
-   
+- Review the user stories in your project backlog
+  - If you got feedback suggesting changes when they were graded make the changes now.
+  - You've had a break, look over your backlog with fresh eyes and see if there are any missing user stories, or user stories that should be revised.
+
+- Assign each user story to a developer.
+- The assigned developer will break their user stories down into *sub-tasks* by adding *child issues.*
+- Make estimates for the user stories. You can do this individually or as a team, or a little of both.
+  - For this sprint estimate 1 story point = 1 hour.
+  - Estimate the sub-tasks first, then the sum of the sub-task story points will be the user story estimate.
+  - Add up the total story points for this sprint. If it comes up to more than 8 times the number of developers times 2 (two weeks per sprint), then you need to remove one or more user stories.
+- Paste a link to your Jira project into the online text for this assignment.
+
+## Schedule Team Meetings
+
+As a team, decide on the days and times you will be meeting each week. Schedule meetings for the first three sprints (6 weeks). These are the meetings you need to schedule:
+
+- Synchronous **work sessions**.
+  Options are:
+
+  - Class time if your team is an on-campus team.
+
+  - Working in person or sychrnously via Discord for online teams.
+
+- One **sprint planning meeting** before the start of each sprint.
+
+- End of sprint metings:
+
+  - **Product review** with client.
+
+  - **Team retrospective** meeting.
+
+
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Software Development Capstone course materials by [Brian Bird](https://profbird.dev), written 2023, revised <time>2025</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Software Development Capstone course materials by [Brian Bird](https://profbird.dev), written 2023, revised <time>2026</time>, are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). 
