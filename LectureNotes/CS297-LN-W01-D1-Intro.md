@@ -2,30 +2,19 @@
 
 **CS297 Programming Capstone**
 
-
-
-<h2>Course Schedule</h2>
-
-| Sprint | Week, Topic                               |      | Sprint | Week, Topic                     |
-| ------ | ----------------------------------------- | ---- | ------ | ------------------------------- |
-| 1      | <mark>1. Agile Scrum, Git workflow</mark> |      | 4      | 7. DevOps                       |
-|        | 2. End-of-sprint meetings                 |      |        | 8. ***Beta release***           |
-| 2      | 3. Functional testing                     |      | 5      | 9l Code freeze                  |
-|        | 4. Continuous integration                 |      |        | 10. ***Release to production*** |
-| *3*    | 5. Continuous delivery                    |      |        | 11. Final presentations         |
-|        | 6. ***Alpha release***                    |      |        |                                 |
-
-
-
 <h2>Contents</h2>
 
 [TOC]
 
-# Discuss Syllabus
+## Discuss Syllabus
 
 - Participation grade
 
   - Attendance is required and graded
+
+    - For on-campus teams this means working with your team in the classroom
+
+    - For online teams this means working 
 
   - Agile project management system entries
 
@@ -42,9 +31,9 @@
 
 - Everyone needs a client (web dev) and testers.
 
-# Review Design and Planning
+## Review Design and Planning
 
-## Design Documents
+### Design Documents
 
 Review your design documents.
 
@@ -52,7 +41,7 @@ Review your design documents.
 - Review and revise the domain model based on feedback from instructor.
 - Review and revise UX diagrams if needed.
 
-## Jira Project
+### Jira Project
 
 - Review the Epics, user stories, sprints (two week) and product backlog. 
   - Is anything missing? 
@@ -65,7 +54,7 @@ Review your design documents.
 
 
 
-# Plan Team Meetings
+## Plan Team Meetings
 
 Schedule a time and place for each type of team meeting.
 
@@ -73,24 +62,22 @@ Schedule a time and place for each type of team meeting.
 
   - Options are:
 
-    - Class time is best for this if possible.
+    - Class time if your team is an on-campus team.
 
-    - Working together in person is best if possible.
-
-    - Working remotely, but at the same time while connected with Discord or something similar.
+    - Working in person or sychrnously via Discord for online teams.
 
   - Start each work session with a "stand up" meeting.
 
-- Sprint planning meetings (2 hours).
+- Sprint planning meetings (1 to 2 hours).
 
 - End of sprint metings
 
-  - Product review with client (3 hours).
+  - Product review with client (1 to 3 hours).
   - Team retrospective meeting (1 hour).
 
-- Report meeting plans to your instructor.
+- **Report meeting plans to your instructor.**
 
-#  Report Progress
+##  Report Progress
 
 - Each individual will report weekly:
   - Participation in synchronous team work sessions.
@@ -104,17 +91,15 @@ Schedule a time and place for each type of team meeting.
   - For team retrospective: time, participants, and what you will keep doing, stop doing, start doing.
 - Each team's scrum master will ensure that the team keeps the Jira project up to date.
 
-# Reference
+## Reference
 
 [Meeting Report Guide](CS297_MeetingReportGuide.html)
-
-
 
 
 
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2024</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2018, revised <time>2026</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------
