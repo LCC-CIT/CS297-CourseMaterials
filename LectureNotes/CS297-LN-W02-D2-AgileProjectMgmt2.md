@@ -2,10 +2,6 @@
 
 **CS297 Programming Capstone**
 
-
-
-<h2>Course Schedule</h2>
-
 <h2>Contents</h2>
 
 [TOC]
