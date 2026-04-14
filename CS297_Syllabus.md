@@ -8,8 +8,8 @@
 | ----------------- | ------------------------------------------------------------ | ---- | --------------------------- | ------------------------------------------------------------ |
 | **Course Number** | CS297                                                        |      | **Name**                    | Brian Bird                                                   |
 | **CRN**           | 40313 on campus <br />41058 online                           |      | **Email****<br />**Mobile** | birdb@lanecc.edu<br />[‪(541) 525-0213‬](tel:5415250213)       |
-| **Time and Day**  | Tu, Th 2:00–3:50                                             |      | **Office Hours**            | M&mdash;Th 1:00&ndash;1:50                                   |
-| **Room**          | Building 19, Room 132<br />or [Zoom meeting](https://lanecc.zoom.us/j/96754591710) |      | **Room**                    | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
+| **Time and Day**  | Thursday 12:00–3:50                                          |      | **Office Hours**            | M, W 12:00–12:50  <br />Th 11:00&ndash;11:50                 |
+| **Room**          | Building 19, Room 126<br />or [Zoom meeting](https://lanecc.zoom.us/j/96754591710) |      | **Room**                    | Building 19, Room 152<br />or [Zoom meeting](https://lanecc.zoom.us/j/8982554800) |
 
 
 

@@ -29,9 +29,9 @@ Don't reuse the one you created for your prototype, make a new one.
 
 ## Jira Backlog and Sprint 1
 
-In your sprint planning meeting this week, revise your first sprint.
+In your <u>sprint planning meeting</u> this week, revise your first sprint.
 
-(If your team didn't set up a Jira project and put user stories into the first sprint backlog in the System Design class, do it now.)
+(If your team didn't set up a Jira project and put user stories into the first sprint backlog in the System Design class, do it now.) 
 
 - Review the user stories in your project backlog
   - If you got feedback suggesting changes when they were graded make the changes now.
