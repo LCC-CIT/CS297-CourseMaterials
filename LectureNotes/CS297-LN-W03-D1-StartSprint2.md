@@ -27,14 +27,14 @@ Everyone should have submitted their individual progress reports and team meetin
 
 ### Sprint 1 Retrospective
 
-Common issues that have come up in the first retrospective:
+Common topics that have come up in the first retrospective over the years:
 
-- Merging to the main without a PR.
+- Merging to the main without a PR (shouldn't be done).
 - Timely review of PRs.
-- Code freeze a day before the product review.
+- Code freeze a day before the product review (a good idea).
 - Update the domain model UML class diagram as you make revisions.
 - Estimate story points in sprint planning and keep track of actual hours when completing them.
-- Others?
+- Contact your client to schedule or confirm the product review meeting at the beginning of the sprint.
 
 ## Sprint 2 Overview
 
@@ -42,7 +42,9 @@ You should now have completed your first sprint, deployed your web app to a stag
 
 ## Sprint Planning
 
-If you haven't already today is the time to have your planning meeting for sprint two. If you client is available, it's great to have them there for the first part of the meeting when you put user stories into the sprint 2 backlog. If you knew the client wasn't available, you could discuss priorities for sprint 2 and the sprint 1 product review meeting.
+If you haven't already today is the time to have your planning meeting for sprint two. If you client is available, it's great to have them there for the first part of the meeting when you put user stories into the sprint 2 backlog. 
+
+If you know in advance the client won't be available, you can discuss priorities for sprint 2 at the sprint 1 product review meeting (or at the sprint 2 review for the sprint 3 planning).
 
 
 
@@ -51,4 +53,4 @@ If you haven't already today is the time to have your planning meeting for sprin
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2023</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2023</time>, revised in <time>2026</time> are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
