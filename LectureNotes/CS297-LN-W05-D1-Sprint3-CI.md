@@ -23,42 +23,39 @@ author: Brian Bird
 
 Continuous Integration (CI) refers to multiple devs on a team frequently merging small changes with the main branch of their central repository. They are *integrating* changes *continuously* rather than periodically&mdash;hence the name, *Continuous Integration*.  The merge starts when a developer finishes a task (as long as it constitutes working, testable code) or a whole user story and sends a PR to the team.
 
-One of the most important practices of CI is to <u>review and test</u> all the changes that you are making to your code before merging it to the main branch. You can do this with unit tests, integration tests, and/or functional tests[^1]. Automating the test process makes in practical to merge more often.
+One of the most important practices of CI is to <u>review and test</u> all the changes that you are making to your code before merging it to the main branch. You can do this with unit tests, integration tests, and/or functional tests[^1]. Automating the test process makes it practical to merge more often.
 
 ### Frequent Reverse Merging
 
-Integrating code "continuously", means that devs merge their code once a day or even more often (Fowler, 2006). This doesn't mean devs need to send PRs that often. A dev can do frequent "reverse merges" where they merge the code from the main branch into their own development branch and test it&mdash;preferably with an automated test. (Of course, it only makes sense to do this after the main branch has changed.) This practice reduces integration problems when they do issue a PR and merge their code into the main branch. 
+Integrating code "continuously", means that devs merge their code once a day or even more often (Fowler, 2006). This doesn't mean devs need to send PRs or merge to the main branch that often. A dev can do frequent *reverse merges* where they merge the code <u>from</u> the main branch into their own development branch and test it&mdash;preferably with an automated test. (Of course, it only makes sense to do this after the main branch has changed.) This practice reduces integration problems when they do issue a PR and merge their code into the main branch. 
 
-PRs to merge code into the main branch should be issued after each task (or set of tasks, if an individual task can't be tested) in a user story is completed. This is why automated testing is so important. If devs have to spend time manually testing code for daily PRs it will slow down development.
+After a dev completed each task (or set of tasks, if an individual task can't be tested), a PR to merge code into the main branch should be issued. This is when automated testing is important. If devs have to spend time manually testing code for daily PRs it will slow down development.
 
 ### Automated Building and Testing
 
-All of the major Git central repository services, like GitHub, GitLab, BitBucket, and Azure DevOps, offer automated build and test services. These services require that environments be set up for both building and testing the software that is being developed. We will focus on doing this with GitHub Actions which allows a dev to automate workflows in response to events that are triggered in GitHub.
+All of the major Git central repository services, like GitHub, GitLab, BitBucket, and Azure DevOps, offer automated build and test services. These services require that environments be set up for both building and testing the software that is being developed. We will focus on doing this with *GitHub Actions* which allows a dev to automate workflows in response to events that are triggered on GitHub.
 
-The most common way to automate functional testing of web apps is to use a test system that automates the browser. A popular browser test automation system is [Selenium](https://www.selenium.dev/).
+The most common way to automate functional testing of web apps is to use a test system that automates the browser. Popular browser test automation system are [Playwright](https://playwright.dev/docs/test-ui-mode) and [Selenium](https://www.selenium.dev/).
 
 #### Build and Test Using GitHub Actions
 
 The basic idea behind GitHub Actions is that you set up a *workflow* to be triggered by some *event*.
 
-- 
-  Event
-
+- **Event**
+  
   An event is a specific activity in a repository. For example: creating a pull request, opening an issue, or pushing a commit.
   
-- Workflow
+- **Workflow**
   
   A workflow is an automated process that will run one or more *jobs*. Workflows are defined by a YAML[^2] file checked in to your repository.
   
-- 
-  Job
-
+- **Job**
+  
   A job is a set of steps in a workflow that execute on a runner.
   
-- 
-  Runner
-
-  A runner is a server that runs your workflows.
+- **Runner**
+  
+  A runner is a server (Linux or Windows) that runs your workflows.
 
 ##### Example YAML workflow file
 
@@ -125,4 +122,4 @@ Haris Khan, [Automated Testing with Selenium Using GitHub Actions – A Step-by-
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2022, revised <time>2024</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2022, revised <time>2026</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
