@@ -11,47 +11,11 @@ author: Brian Bird
 
 <h1>Start of Sprint 3, Continuous Integration</h1>
 
-**CS297 Programming Capstone**
-
-
-
-<h2>Schedule</h2>
-
-| Sprint | Week | Focus                                              |      | Sprint | Week | Focus                        |
-| ------ | ---- | -------------------------------------------------- | ---- | ------ | ---- | ---------------------------- |
-| 1      | 1    | Design review<br />project mgmt.<br />Git workflow |      | 4      | 7    | DevOps                       |
-|        | 2    | First end of sprint meetings                       |      |        | 8    | <u>Beta release</u>          |
-| 2      | 3    | Functional testing                                 |      | 5      | 9    | Code freeze                  |
-|        | 4    |                                                    |      |        | 10   | <u>Release to production</u> |
-| 3      | 5    | <mark>Continuous Integration</mark>                |      |        | 11   | Final presentation           |
-|        | 6    | <u>Alpha release</u><br />Continuous Deployment    |      |        |      |                              |
-
-
+**CS297 Software Development Capstone**
 
 <h2>Contents</h2>
 
 [TOC]
-
-## Introduction
-
-### Spring 2024 Discussion
-
-- Sprint 2 finished last week. Two teams have submitted their reports. A couple teams are having the product review meeting with their client today or tomorrow, so those sprint meeting reports will be turned in later this week.
-
-### Week 5 Overview
-
-- Sprint 3
-  - Sprint planning meeting today or tomorrow.
-
-  - Product review and team retrospective meetings at the end of next week.
-- Alpha release at the end of this sprint (week 6)
-
-  - Alpha testing
-    - UX testing
-    - Functional testing
-  - Alpha presentations to the class by each team at the end of week 7 (two weeks from now).
-
-
 
 ## Continuous Integration
 
