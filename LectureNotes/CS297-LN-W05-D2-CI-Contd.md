@@ -21,6 +21,8 @@ author: Brian Bird
 
 The script that defines what GitHub Actions will do will be a file written in YAML (YAML is a bit like JSON without curly braces).
 
+You can start with a template, like [this one for .net projects](https://github.com/actions/starter-workflows/blob/main/ci/dotnet.yml).
+
 - Create a directory in your repository, on the main branch, with this path:
   `.github/workflows`
 - Create a workflow file by creating a text file with the extension `.yaml` and give it a name, like:
@@ -213,13 +215,7 @@ When you have code that is ready for a PR and to be merged into main:
 
 ## Example
 
-[CS 296N Book Reviews Web Site (2022 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews)
-
-
-
-## Next Time
-
-In future sessions, we will add integration tests and deployment to our GitHub Actions workflow.
+[Book Reviews Web Site (2026 Version)](https://github.com/LCC-CIT/CS296N-Example-BookReviews-2026/)
 
 
 
