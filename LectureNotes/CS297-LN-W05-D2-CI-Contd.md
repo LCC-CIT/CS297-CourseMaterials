@@ -66,7 +66,10 @@ There are two types of data in a yaml file: key-value pairs (aka dictionaries) a
 
 #### on
 
-Specifies a trigger for the workflow. [Here is a list of triggers](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).
+Specifies a trigger for the workflow. [Here is a list of triggers](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows).  In the example below we are using:
+
+- `Push`&mdash;a push to a particular branch
+- `workflow_dispatch`&mdash;allows testing the workflow by triggering it through the 
 
 #### steps
 
@@ -99,6 +102,7 @@ on:
     branches: 
     - Test
     - main
+  workflow_dispatch:
 
 jobs:
   build:
@@ -122,6 +126,31 @@ jobs:
 ```
 
 
+
+### Testing the Workflow
+
+1. **Navigate to your Repository:** Open your project on GitHub.
+2. **Click the "Actions" Tab:** You'll find this in the top horizontal menu, between "Pull requests" and "Projects."
+3. **Select the Workflow:** On the left-hand sidebar, click the **name of the workflow** you just edited.
+   - *Note: If you haven't given it a specific name:, it will show the filename (e.g., main.yml).*`name:``main.yml`
+4. **The "Run workflow" Button:** If the YAML is configured correctly, a blue bar will appear above the workflow run list that says: **"This workflow has a workflow_dispatch event trigger."**
+5. **Click "Run workflow":** A dropdown menu will appear.
+6. **Configure and Launch:** Select the branch you want to run the workflow from and click the green **Run workflow** button.
+
+#### Troubleshooting Tips
+
+If you don't see the button, check these common "gotchas":
+
+- **Default Branch Requirement:** The workflow file containing `workflow_dispatch` **must** exist on your default branch (usually `main`) for the button to appear in the UI, even if you intend to run the workflow against a different feature branch.
+
+- **YAML Syntax:** Ensure it is nested correctly under `on:`. It should look like this:
+
+  ```yaml
+  on:
+    workflow_dispatch:
+  ```
+
+- **Optional Inputs:** You can actually add custom fields (text boxes, checkboxes) to that manual popup by adding an `inputs` section under `workflow_dispatch`.
 
 ### Unit Test Issues
 
@@ -208,6 +237,8 @@ Cam Soper, Scott Addie, Colin Dembovsky, [DevOps for ASP.NET Core Developers](ht
 Rick Anderson, Tom Dykstra, [Continuous Integration and Continuous Delivery (Building Real-World Cloud Apps with Azure)](https://docs.microsoft.com/en-us/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/continuous-integration-and-continuous-delivery), Microsoft, 2022.
 
 
+
+*Note: Parts of these lecture notes were drafted with Gemini 3.1*
 
 ------
 
