@@ -13,28 +13,15 @@ author: Brian Bird
 
 
 
-<h2>Schedule</h2>
-
-| Sprint | Week | Focus                                                        |      | Sprint | Week | Focus                        |
-| ------ | ---- | ------------------------------------------------------------ | ---- | ------ | ---- | ---------------------------- |
-| 1      | 1    | Design review<br />project mgmt.<br />Git workflow           |      | 4      | 7    | DevOps                       |
-|        | 2    | First end of sprint meetings                                 |      |        | 8    | <u>Beta release</u>          |
-| 2      | 3    |                                                              |      | 5      | 9    | Code freeze                  |
-|        | 4    | Functional testing                                           |      |        | 10   | <u>Release to production</u> |
-| 3      | 5    | Continuous Integration                                       |      |        | 11   | Final presentation           |
-|        | 6    | <mark><u>Alpha release</u></mark><br />Continuous Deployment |      |        |      |                              |
-
-
-
 <h2>Contents</h2>
 
 [TOC]
 
-# Alpha Release
 
-This week you will release your project for alpha testing. Today we will discuss all that is involved in an alpha release.
 
 ## What is an Alpha Release?
+
+This week you will release your project for alpha testing. Today we will discuss all that is involved in an alpha release.
 
 ### Purpose of an alpha release
 
@@ -86,4 +73,4 @@ Luke Frieler, [Alpha vs. Beta Testing](https://www.centercode.com/blog/2011/01/a
 
 
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2018, revised <time>2022</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2018, revised <time>2026</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
