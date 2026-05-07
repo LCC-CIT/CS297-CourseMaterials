@@ -175,6 +175,10 @@ Deploying via Microsoft Web Deploy requires a more detailed configuration than t
 
 
 
+***Note: These notes were drafted using Gemini 3.1***
+
+
+
 ## References
 
 Jeevi Academy, [CI/CD for .NET Projects Using GitHub Actions](https://www.jeeviacademy.com/ci-cd-for-net-projects-using-github-actions/), 2024.
@@ -187,5 +191,9 @@ Milan Jovanović, [Streamlining .NET 9 Deployment With GitHub Actions and Azure]
 
 Sten Pittet, [Continuous delivery vs. continuous deployment](https://www.google.com/search?q=https://www.atlassian.com/continuous-delivery/principles/continuous-delivery-vs-continuous-deployment), Atlassian.
 
+----
+
 [](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2022, revised 2026, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2026, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+----
