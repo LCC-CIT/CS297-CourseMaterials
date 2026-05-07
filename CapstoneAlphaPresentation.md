@@ -15,7 +15,7 @@ Your presentation should be 15 to 20 minutes long. The times listed in the headi
 
 ## Overview of the Project - 2 minutes
 
-Refresh eveyone's memory of the "big picure" of the project.
+Refresh eveyone's memory of the "big picture" of the project.
 (Most of the class members will have already heard about the project during your System Design presentation.)
 
 - Who is the client.
