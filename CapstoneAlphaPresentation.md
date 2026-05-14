@@ -9,11 +9,23 @@ author: Brian Bird
 
 **CS297, Programming Capstone**
 
-# Alpha Release Presentation Guide
+<h1>Alpha Release Presentation Guide</h1>
 
-Your presentation should be 15 to 20 minutes long. The times listed in the headings below are suggestions.
+[TOC]
 
-## Overview of the Project - 2 minutes
+## Tips for an Effective Presentation
+
+Your presentation should be 15 to 20 minutes long. The times listed in the headings are just suggestions.
+
+- For recorded presentations, turn on web cams so we can see each presenter when they present and introduce yourselves.
+- For both in person and recorded presentations, show what you are talking about rather than just talking while there is something unrelated on the screen (like the site home page). For example. while talking about your documentation, show it.
+- When demoing the site, walk through scenarios that match your epics rather than demonstarting features in a random order.
+
+## Outline and Suggested Content
+
+The main topics below are the items you need to cover. The bullet points are suggestiions.
+
+### Overview of the Project - 2 minutes
 
 Refresh eveyone's memory of the "big picture" of the project.
 (Most of the class members will have already heard about the project during your System Design presentation.)
@@ -21,7 +33,7 @@ Refresh eveyone's memory of the "big picture" of the project.
 - Who is the client.
 - What is the purpose of the site.
 
-## Demonstration of your web site - 5 minutes
+### Demonstration of your web site - 5 minutes
 
 Suggested points:
 
@@ -29,7 +41,7 @@ Suggested points:
 - Highlight any features you are especially proud of.
 - Tell us about any features that were especially hard to implement.
 
-## Evaluation of the Design - 2 minutes
+### Evaluation of the Design - 2 minutes
 
 Assess the design you did in CS246 (last term). Suggested points:
 
@@ -41,7 +53,7 @@ Assess the design you did in CS246 (last term). Suggested points:
 
 - What would you do differently next time you design a web app?
 
-## Evaluation of the development process - 3 minutes
+### Evaluation of the development process - 3 minutes
 
 Describe what has been going well, what hasn't gone well, and  what you would do differently in the future. Suggested topics:
 
@@ -50,7 +62,7 @@ Describe what has been going well, what hasn't gone well, and  what you would do
 - Project management.
 - Writing the code.
 
-## Evaluation of the finished product - 5 minutes
+### Evaluation of the finished product - 5 minutes
 
 1. Assessment of the completeness of your application. 
 
@@ -88,7 +100,7 @@ Describe what has been going well, what hasn't gone well, and  what you would do
    - Does it crash unexpectedly, or does it do strange things at random times?
    - Do you have run-time exception handling?
 
-## Documentation
+### Documentation
 
 As a team, you will post the following documents in the Preliminary Presentation Documentation forum:
 
@@ -102,4 +114,4 @@ As a team, you will post the following documents in the Preliminary Presentation
 
 ---
 
-Written by Brian Bird, spring 2022, revised <time>2023</time>
+Written by Brian Bird, spring 2022, revised <time>2026</time>
