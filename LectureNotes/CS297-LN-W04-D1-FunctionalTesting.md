@@ -11,21 +11,6 @@ author: Brian Bird
 
 **CS297 Programming Capstone**
 
-
-
-<h2>Schedule</h2>
-
-| Sprint | Week | Focus                                              |      | Sprint | Week | Focus                        |
-| ------ | ---- | -------------------------------------------------- | ---- | ------ | ---- | ---------------------------- |
-| 1      | 1    | Design review<br />project mgmt.<br />Git workflow |      | 4      | 7    | DevOps                       |
-|        | 2    | End of sprint meetings                             |      |        | 8    | <u>Beta release</u>          |
-| 2      | 3    |                                                    |      | 5      | 9    | Code freeze                  |
-|        | 4    | <mark>Functional testing</mark>                    |      |        | 10   | <u>Release to production</u> |
-| 3      | 5    | Continuous Integration                             |      |        | 11   | Final presentation           |
-|        | 6    | Continuous Deployment<br /><u>Alpha release</u>    |      |        |      |                              |
-
-
-
 <h2>Contents</h2>
 
 [TOC]
@@ -88,11 +73,10 @@ Ask your testers to enter the following information:
 
 - A descriptive title
 
-- Steps to reproduce the bug
-
 - Description of the failure
   - Include any error messages
   - Include a screen-shot if needed
+
 
 **Example from Jira**  
 Note that Jira has a "Bug" option for the issue "work type".  
@@ -115,4 +99,4 @@ This article shows you what to consider when creating a front-end  testing plan 
 
 ------
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2025</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) Capstone Class Lecture Notes written by [Brian Bird](https://profbird.dev), 2019, revised <time>2026</time>, are licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 

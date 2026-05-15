@@ -16,7 +16,7 @@ author: Brian Bird
 
 | Sprint | Week, Topic                               |      | Sprint | Week, Topic                     |
 | ------ | ----------------------------------------- | ---- | ------ | ------------------------------- |
-| 1      | <mark>1. Agile Scrum, Git workflow</mark> |      | 4      | 7. DevOps                       |
+| 1      | <mark>1. Agile Scrum, Git workflow</mark> |      | 4      | 7. Alpha Presentation           |
 |        | 2. End-of-sprint meetings                 |      |        | 8. ***Beta release***           |
 | 2      | 3. Functional testing                     |      | 5      | 9l Code freeze                  |
 |        | 4. Continuous integration                 |      |        | 10. ***Release to production*** |
@@ -57,6 +57,6 @@ These are all due Sunday, April 5
 ------
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
-Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), 2026</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+Capstone Class Lecture Notes by [Brian Bird](https://profbird.dev), <time>2026</time>, is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
 
 ------

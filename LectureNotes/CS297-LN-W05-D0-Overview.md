@@ -18,7 +18,7 @@ author: Brian Bird
 
 | Sprint | Week | Focus                                              |      | Sprint | Week | Focus                        |
 | ------ | ---- | -------------------------------------------------- | ---- | ------ | ---- | ---------------------------- |
-| 1      | 1    | Design review<br />project mgmt.<br />Git workflow |      | 4      | 7    | DevOps                       |
+| 1      | 1    | Design review<br />project mgmt.<br />Git workflow |      | 4      | 7    | Alpha Presentation           |
 |        | 2    | First end of sprint meetings                       |      |        | 8    | <u>Beta release</u>          |
 | 2      | 3    | Functional testing                                 |      | 5      | 9    | Code freeze                  |
 |        | 4    |                                                    |      |        | 10   | <u>Release to production</u> |
