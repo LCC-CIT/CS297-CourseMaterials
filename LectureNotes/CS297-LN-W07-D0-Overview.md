@@ -1,6 +1,6 @@
 ---
-title: Week 1 Overview
-description: What's happening in week 1
+title: Week 7 Overview
+description: What's happening in week 7
 keywords: Announcements, Due Dates
 generator: Typora
 author: Brian Bird
@@ -36,7 +36,15 @@ This week you will:
 
 ## Announcements
 
-- TBD
+- **LCC Job Fair 2026!**  
+  <img src="/Volumes/DataCard/Repos/CS297-Repos/CS297-CourseMaterials/LectureNotes/Images/LCC-JobFair.png" alt="LCC Job Fair 2026 logo" style="zoom:35%;" />    
+
+  The Lane Community College Job Fair will be May 21 from 1 p.m. - 4 p.m. on the 2nd floor of the center building. 
+
+  **Resource:** [More Information](https://out.smore.com/e/q9cks/xd6j18?__$u__) **| Contact:** [Kirsten Rawding. 
+
+- **Summer and Fall Term Registration**  
+  Registration issues with the AI courses have been resolved.
 
 ## Due This Week
 
