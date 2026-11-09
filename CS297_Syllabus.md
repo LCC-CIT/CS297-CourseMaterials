@@ -25,12 +25,17 @@ This course is an advanced course in programming methods with an emphasis on app
 
 ## Learning Outcomes
 
-Upon completion of this course you will be able to:    
+Upon successful completion of this course, the student will be able to:
 
-1. Analyze, design and implement a medium scale, but significant programming project.
-2. Demonstrate an ability to integrate knowledge and skills acquired in previous coursework.
-3. Demonstrate the ability to work as an effective member of a project team. 
-           
+1. Work with clients and stakeholders to continually refine and prioritize the requirements of a software product throughout its development in an Agile workflow.
+2. Plan, conduct, and document effective Agile team meetings, including sprint planning, daily stand-ups, sprint reviews with clients, and team retrospectives, and report on team and individual progress.
+3. Coordinate and integrate a team's work using project-management, issue-tracking, version-control, and team communication tools.
+4. Implement a medium-scale, secure, data-driven software application that integrates the concepts, design and coding principles learned in prior coursework for the AAS in Software Development.
+5. Evaluate software quality, functionality, usability, accessibility, and security through User eXperience (UX) testing, automated and manual testing and use the results to correct issues.
+6. Configure and manage test, staging, and production servers, including the secure management of credentials across development and production platforms, and automate building, testing, and deployment using continuous integration and continuous delivery (CI/CD).
+7. Plan, carry out, and document alpha, beta, and production releases of a software product, using feedback from each release to guide the next stage of development, and finally to hand off the finished product and its documentation to the client.
+8. Present and evaluate a team's product and development process for technical and non-technical audiences.
+        
 
 ## Learning Resources
 
@@ -38,7 +43,7 @@ Upon completion of this course you will be able to:
 
 No textbook is required 
 
-### Moodle Course
+### Learning Management System
 
 All course activities and resources will be managed through this class; Moodle page. Assignment instructions will be made available on Moodle by the instructor and assignments will be submitted via Moodle by the students. 
 
