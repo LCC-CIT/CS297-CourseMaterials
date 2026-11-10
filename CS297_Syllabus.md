@@ -19,7 +19,7 @@
 
 ## Course Description
 
-This course is an advanced course in programming methods with an emphasis on applying best practices for software development in the  context of a development team. The course ties together topics covered in the first and second years of curriculum. It emphasizes practical application and working knowledge and is project oriented. Students will work together in teams to produce a  moderately complex software application (or system) and prepare it for release to end users. 
+This capstone course for the AAS in Software Development brings together what students learned in the first and second years of the program. Students work in Agile teams with a real client to build a secure, data-driven, full-stack web application. Over the term, each team takes its applicaiton from the design done in the System Design course through alpha, beta, and production releases during a series of Agile sprints that include implementation, code reviews, testing, CI/CD and client feedback.  The course ends when teams hand off the finished product to the client and make a public presentation of their work and development process.
 
 
 
